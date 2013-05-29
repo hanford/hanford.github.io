@@ -15,7 +15,22 @@
     #Mobile (Portrait)
     #Mobile (Landscape)
     #Clearing */
+.img-circle {
 
+   position: relative;
+   float: right;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 4px;
+    height: 128px;
+    width: 128px;
+  -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;
+
+
+          
+}
 
 
 /* #Base 960 Grid
