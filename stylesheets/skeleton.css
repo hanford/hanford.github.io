@@ -17,8 +17,10 @@
     #Clearing */
 .img-circle {
 
-   position: relative;
-   float: right;
+   position: absolute;
+   float: center;
+   z-index: -1;
+   margin-left: 300px;
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 4px;
