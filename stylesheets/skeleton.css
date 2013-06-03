@@ -28,11 +28,24 @@
     width: 128px;
   -webkit-border-radius: 500px;
      -moz-border-radius: 500px;
-          border-radius: 500px;
-
-
-          
+          border-radius: 500px;          
 }
+.face-wrap {
+padding: 5px;
+width: 128px;
+height: 128px;
+border: 1px solid #e4e4e4;
+border-radius: 100px;
+display: inline-block;
+position: absolute;
+background: white;
+top: 24px;
+left: -4px;
+}
+
+.alto {width: 128px;
+height: 128px;
+border-radius: 64px;}
 
 
 /* #Base 960 Grid
