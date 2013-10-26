@@ -14,3 +14,10 @@ html, body {
 	padding: 1px;
 	border: 1px solid gray;
 }
+h1 {
+   background: url(../images/bck.jpg) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 900;
+   letter-spacing: -3px;
+}
