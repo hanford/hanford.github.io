@@ -83,6 +83,14 @@ html {
 	margin-top: 1px;
 	border-bottom: 1px solid #516D98;
 }
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   padding-left: 10px;
+}
 .photosection {
 	width: 100% !important;
 }
