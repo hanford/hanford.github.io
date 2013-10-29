@@ -15,26 +15,26 @@ html {
 	font-size: 22pt;
 }
 .flink {
-	color: gray; 
+	color: gray;
 }
 .flink:hover {
 	color: #45619D;
 }
 .tlink {
 	color: gray;
-} 
+}
 .tlink:hover {
 	color: #2596C6;
 }
 .glink {
 	color: gray;
-} 
+}
 .glink:hover {
 	color: #333333;
 }
 .elink {
 	color: gray;
-} 
+}
 .elink:hover {
 	color: #DD4B39;
 }
@@ -84,7 +84,28 @@ html {
 	border-bottom: 1px solid #516D98;
 }
 .photosection {
-	width: 100% !important;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+.pictureframe {
+	background-color: #fff;
+	border: 10px solid #fff;
+	-webkit-border-radius: 2px;
+	height: 420px;
+	width: 420px;
+}
+.slideshow {
+	position: relative;
+	width: 420px;
+  height: 420px;
+}
+.slideshow img {
+	position: absolute;
+	height: 420px;
+	width: 420px;
+	left: 0;
+	top: 0;
 }
 ul {
 	margin: 0;
