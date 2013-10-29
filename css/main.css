@@ -88,6 +88,9 @@ html {
 	margin-left: auto;
 	width: 50%;
 }
+.blue {
+	color: #030D4F;
+}
 .pictureframe {
 	background-color: #fff;
 	border: 10px solid #fff;
