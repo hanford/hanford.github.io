@@ -8,8 +8,8 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.slideshow img:gt(0)').hide();
     setInterval(function(){
-      $('.slideshow :first-child').fadeOut()
-         .next('img').fadeIn()
+      $('.slideshow :first-child').fadeIn()
+         .next('img').fadeOut()
          .end().appendTo('.slideshow');},
       4000);
   });
