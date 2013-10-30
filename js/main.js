@@ -11,7 +11,7 @@ $(document).ready(function() {
       $('.slideshow :first-child').fadeIn()
          .next('img').fadeOut()
          .end().appendTo('.slideshow');},
-      4000);
+      3000);
   });
 });
 
