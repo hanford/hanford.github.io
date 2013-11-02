@@ -3,8 +3,18 @@ html {
 	height: 100%;
 	width: 100%;
 	font-family: 'Droid Sans', sans-serif;
+	overflow-x: none;
 }
-.intro {
+.newbck {
+	width: 101.35% !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #5D5D5D;
+	background-size: cover;
+	color: white;
+	margin-left: -8px;
+}
+.center {
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -40,6 +50,8 @@ html {
 }
 .container {
 	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .none {
 	display: none;
