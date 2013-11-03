@@ -2,7 +2,8 @@ html {
 	background-color: #ECEDF5;
 	height: 100%;
 	width: 100%;
-	font-family: 'Droid Sans', sans-serif;
+	/*font-family: 'Droid Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
 	overflow-x: none;
 }
 .newbck {
