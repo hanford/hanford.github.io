@@ -2,18 +2,8 @@ html {
 	background-color: #ECEDF5;
 	height: 100%;
 	width: 100%;
-	/*font-family: 'Droid Sans', sans-serif;*/
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: none;
-}
-.newbck {
-	width: 101.35% !important;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #5D5D5D;
-	background-size: cover;
-	color: white;
-	margin-left: -8px;
 }
 .center {
 	margin-right: auto;
@@ -21,30 +11,39 @@ html {
 }
 .about {
 }
+.buttonspace {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
 .fa {
 	text-decoration: none;
 	font-size: 22pt;
 }
 .flink {
 	color: gray;
+	width: 15%;
 }
 .flink:hover {
 	color: #45619D;
 }
 .tlink {
 	color: gray;
+	width: 15%;
 }
 .tlink:hover {
 	color: #2596C6;
 }
 .glink {
 	color: gray;
+	width: 15%;
 }
 .glink:hover {
 	color: #333333;
 }
 .elink {
 	color: gray;
+	width: 15%;
 }
 .elink:hover {
 	color: #DD4B39;
@@ -53,6 +52,7 @@ html {
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
+	max-width: 700px;
 }
 .none {
 	display: none;
@@ -110,13 +110,15 @@ html {
 	border: 10px solid #fff;
 	-webkit-border-radius: 2px;
 	height: 540px;
-	width: 800px;
+	width: 700px;
 	z-index: 9;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
 }
 .slideshow {
 	position: relative;
-	/*width: 420px;
-  height: 420px;*/
+	z-index: 1;
 }
 .slideshow img {
 	position: absolute;
@@ -134,10 +136,6 @@ html {
 	padding-bottom: 30px;
 }
 ul {
-	margin: 0;
-	padding-left: 10px;
-	/*border-left: 1px solid #9A9A9A;*/
-	overflow: visible;
 	list-style: none;
 }
 footer {
