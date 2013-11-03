@@ -6,6 +6,7 @@ $(document).ready(function() {
     $(".toppadd").hide();
   });
 $(document).ready(function() {
+  $('.tip').tipr();
   $('.slideshow img:gt(0)').hide();
     setInterval(function(){
       $('.slideshow :first-child').fadeIn()
@@ -14,4 +15,3 @@ $(document).ready(function() {
       3000);
   });
 });
-
