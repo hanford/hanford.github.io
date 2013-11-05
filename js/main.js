@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#jbtn").click(function(e) {
   	e.preventDefault();
-    $(".about.none").fadeIn();
+    $(".about.none").toggle().addClass('slideleft');
     $(this).hide();
     $(".toppadd").hide();
   });
