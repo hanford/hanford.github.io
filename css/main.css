@@ -60,6 +60,7 @@ html {
 .title {
 	letter-spacing: -1px;
 	color: black;
+	font-weight: 900;
 }
 .toppadd {
 	padding-top: 10%;
