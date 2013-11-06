@@ -3,7 +3,7 @@ $(document).ready(function() {
   	e.preventDefault();
     $(".about.none").toggle().addClass('slideleft');
     $(this).hide();
-    // $(".toppadd").toggle().addClass('expandUp')
+    $(".toppadd").toggle();
   });
 $(document).ready(function() {
   $('.tip').tipr();
