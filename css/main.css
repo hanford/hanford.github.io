@@ -2,75 +2,95 @@ html {
 	background-color: #ECEDF5;
 	height: 100%;
 	width: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Helvetica Neue';
 	overflow-x: none;
-	font-weight: 200;
 }
+
 .center {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+h3 {
+	text-align: center;
+}
+
 .about {
 }
+
 .buttonspace {
-	width: 20%;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .fa {
 	text-decoration: none;
 	font-size: 22pt;
 }
+
 .flink {
 	color: gray;
 	width: 15%;
 }
+
 .flink:hover {
 	color: #45619D;
 }
+
 .tlink {
 	color: gray;
 	width: 15%;
 }
+
 .tlink:hover {
 	color: #2596C6;
 }
+
 .glink {
 	color: gray;
 	width: 15%;
 }
+
 .glink:hover {
 	color: #333333;
 }
+
 .elink {
 	color: gray;
 	width: 15%;
 }
+
 .elink:hover {
 	color: #DD4B39;
 }
+
 .container {
-	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 700px;
+	max-width: 500px;
 }
+
 .none {
 	display: none;
 }
+
 .title {
 	letter-spacing: -1px;
 	color: black;
 	font-weight: 900;
 }
+
 .toppadd {
 	padding-top: 10%;
 }
+
 .introbox {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
+
 .profilePic {
 	background-color: #fff;
 	border: 4px solid #fff;
@@ -79,6 +99,7 @@ html {
 	width: 160px;
 	border-radius: 80px;
 }
+
 .jbtn {
 	background: #697FA0;
 	border-bottom: 2px solid #516D98;
@@ -90,6 +111,7 @@ html {
 	display: inline-block;
 	text-decoration: none;
 }
+
 .jbtn:hover {
 	text-decoration: none;
 	background-color: #5C7CAD;
@@ -99,34 +121,41 @@ html {
 	margin-top: 1px;
 	border-bottom: 1px solid #516D98;
 }
+
 .photosection {
 	margin-right: auto;
 	margin-left: auto;
 	width: 50%;
 }
+
 .blue {
 	color: #030D4F;
 }
+
 .pictureframe {
 	background-color: #fff;
 	border: 10px solid #fff;
 	-webkit-border-radius: 2px;
-	height: 540px;
-	width: 700px;
+	height: 300px;
+	width: 100%;
 	z-index: 9;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
 }
+
 .slideshow {
 	position: relative;
 	z-index: 1;
 }
+
 .slideshow img {
 	position: absolute;
 	left: 0;
+	width: 100%;
 	top: 0;
 }
+
 .phototext {
 	color: white;
 	text-shadow: 0px 1px 10px #000;
@@ -134,16 +163,20 @@ html {
 	z-index: 10;
 	padding-left: 15px;
 }
+
 .bottompad {
 	padding-bottom: 30px;
 }
+
 ul {
 	list-style: none;
 }
+
 footer {
 	color: gray;
 	text-align: center;
 }
+
 .shrank {
 	width: 80%;
 }
