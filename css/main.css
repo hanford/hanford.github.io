@@ -4,6 +4,7 @@ html {
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: none;
+	font-weight: 200;
 }
 .center {
 	margin-right: auto;
