@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("#jbtn").click(function(e) {
   	e.preventDefault();
     $(".about.none").fadeIn();
-    $(this).hide();
+    $(this).fadeOut("fast")
     $(".toppadd").slideUp();
   });
   $(document).ready(function() {
