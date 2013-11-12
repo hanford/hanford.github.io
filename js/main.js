@@ -1,10 +1,10 @@
 $(document).ready(function() {
+  $('.tip').tipr();
   $("#jbtn").click(function(e) {
   	e.preventDefault();
     $(".about.none").fadeIn();
     $(this).hide();
     $(".toppadd").slideUp();
-    $('.tip').tipr();
   });
   $(document).ready(function() {
     $('.slideshow img:gt(0)').hide();
