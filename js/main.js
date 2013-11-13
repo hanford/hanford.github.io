@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(".toppadd").slideUp();
   });
   $(document).ready(function() {
-    $('.slideshow img:gt(0)').hide();
+    $('.slideshow img:gt(0)').fadeOut();
       setInterval(function(){
         $('.slideshow :first-child').fadeIn()
           .next('img').fadeOut()
