@@ -1,1 +1,1 @@
-Just my website, working on it randomly.
+My personal website, completed for now.
