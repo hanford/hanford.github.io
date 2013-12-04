@@ -52,6 +52,15 @@ h3 {
 	width: 15%;
 }
 
+.blink {
+	color: gray;
+	width: 15%;
+}
+
+.blink:hover {
+	color: #422300;
+}
+
 .glink:hover {
 	color: #333333;
 }

@@ -1,7 +1,7 @@
 .container {
+  max-width: 925px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px;
 }
 
 .polaroid-images a {
@@ -33,6 +33,6 @@
 .polaroid-images img {
   display: block;
   width: inherit;
-  width: 246px;
+  width: 250px;
   height: 200px;
 }
