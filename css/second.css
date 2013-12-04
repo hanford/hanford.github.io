@@ -32,6 +32,7 @@
 
 .polaroid-images img {
   display: block;
+  border: 1px dotted #BBBAC3;
   width: inherit;
   width: 250px;
   height: 200px;
