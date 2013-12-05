@@ -14,4 +14,7 @@ $(document).ready(function() {
           .end().appendTo('.slideshow');},
         3000);
     });
+  $('.resumetoggle').click(function() {
+    $('.resume').toggle();
+  });
 });
