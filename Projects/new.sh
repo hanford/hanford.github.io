@@ -40,6 +40,7 @@ pwd
   wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.dmg
   wget http://cachefly.alfredapp.com/Alfred_2.1.1_227.zip
   wget http://www.macbartender.com/Demo/Bartender.zip
+  wget http://media.steampowered.com/client/installer/steam.dmg
   open http://www.introversion.co.uk/prisonarchitect/builds/prisonarchitect-alpha15-macosx.zip
   echo "Downlaods are complete!!"
   sleep 5
@@ -54,3 +55,5 @@ pwd
     pwd
     mv Downloads ../Downloads
 echo "Completed!"
+echo "oh my zsh"
+wget --no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
