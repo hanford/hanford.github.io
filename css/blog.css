@@ -1,0 +1,49 @@
+.topic {
+	padding-left: 200px;
+	margin-bottom: 30px;
+}
+
+.blogtitle {
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	letter-spacing: -0.02em;
+	font-weight: 700;
+	font-style: normal;
+	display: block;
+	font-size: 28px;
+	line-height: 1.1;
+	color: #333332;
+	margin-bottom: 4px;
+}
+
+.preview {
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+	letter-spacing: -0.02em;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #666665;
+	margin-bottom: 4px;
+}
+
+.profilePic {
+	width: 128px;
+	height: 128px;
+}
+
+.introbox {
+	float: left;
+	text-align: none;
+	max-width: 150px;
+	padding-top: 10px;
+	padding-left: 15%;
+}
+
+.container {
+	max-width: 75%;
+	padding-top: 60px;
+}
+
+.posts {
+	padding-left: 15%;
+}
