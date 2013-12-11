@@ -1,6 +1,8 @@
 .topic {
 	padding-left: 200px;
 	margin-bottom: 30px;
+	margin-top: 20px;
+	/*border-top: 1px dotted white;*/
 }
 
 .blogtitle {
@@ -13,6 +15,10 @@
 	line-height: 1.1;
 	color: #333332;
 	margin-bottom: 4px;
+}
+
+.pagetitle {
+	padding-top: 60px;
 }
 
 .preview {
@@ -33,10 +39,17 @@
 
 .introbox {
 	float: left;
-	text-align: none;
+	text-align: left;
 	max-width: 150px;
 	padding-top: 10px;
 	padding-left: 15%;
+	height: 100%;
+	z-index: 2;
+	background-color: #E8E8F0;
+}
+
+.subtle {
+	color: #666665;
 }
 
 .container {
@@ -46,4 +59,13 @@
 
 .posts {
 	padding-left: 15%;
+	padding-top: 2.5%;
+	z-index: 1;
+	max-width: 760px;
+}
+
+.btn {
+	float: right;
+	font-style: italic;
+	cursor: pointer;
 }
