@@ -6,6 +6,7 @@ $(document).ready(function() {
     $(this).fadeOut("fast")
     $(".toppadd").slideUp();
   });
+
   $(document).ready(function() {
     $('.slideshow img:gt(0)').fadeOut();
       setInterval(function(){
@@ -14,7 +15,17 @@ $(document).ready(function() {
           .end().appendTo('.slideshow');},
         3000);
     });
+
+  $('#contact').click(function() {
+    $('#contactInfo').slideDown(function() {
+      $('#contact').slideUp('fast');
+    });
+  });
+
+
   $('.resumetoggle').click(function() {
     $('.resume').toggle();
   });
+
+
 });

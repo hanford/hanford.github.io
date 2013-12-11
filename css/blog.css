@@ -69,3 +69,7 @@
 	font-style: italic;
 	cursor: pointer;
 }
+
+.none {
+	display: none;
+}
