@@ -29,9 +29,7 @@ $(document).ready(function() {
 
   $('.BringEmAll').click(function() {
     $(".tlink").mouseenter();
-    // $(".glink").mouseenter();
     $(".flink").mouseenter();
     $(".elink").mouseenter();
-    // $(".blink").mouseenter();
   });
 });
