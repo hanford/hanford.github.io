@@ -1,4 +1,5 @@
+port: 4000
+auto: true
 safe: true
-lsi: false
+server: true
 pygments: true
-source: ../
