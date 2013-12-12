@@ -1,0 +1,15 @@
+{
+  "name": "jackhanford.github.io",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "jquery-tipr": "~1.1.1"
+  }
+}
