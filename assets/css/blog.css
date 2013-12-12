@@ -73,3 +73,14 @@
 .none {
 	display: none;
 }
+
+ol > li {
+	font-size: 14pt;
+	list-style: none;
+	color: #666665;
+}
+
+ol > li > a {
+	font-size: 12pt;
+	color: #000;
+}
