@@ -27,5 +27,11 @@ $(document).ready(function() {
     $('.resume').toggle();
   });
 
-
+  $('.BringEmAll').click(function() {
+    $(".tlink").mouseenter();
+    // $(".glink").mouseenter();
+    $(".flink").mouseenter();
+    $(".elink").mouseenter();
+    // $(".blink").mouseenter();
+  });
 });
