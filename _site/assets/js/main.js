@@ -16,13 +16,6 @@ $(document).ready(function() {
         3000);
     });
 
-  $('#contact').click(function() {
-    $('#contactInfo').slideDown(function() {
-      $('#contact').slideUp('fast');
-    });
-  });
-
-
   $('.resumetoggle').click(function() {
     $('.resume').toggle();
   });

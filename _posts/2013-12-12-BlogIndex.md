@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "L"
+title: "Blog Index"
 description: ""
 category: 
 tags: []
