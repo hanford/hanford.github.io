@@ -71,6 +71,10 @@ h3 {
 	color: #DD4B39;
 }
 
+.bulllink:hover {
+	color: #000;
+}
+
 .container {
 	margin-right: auto;
 	margin-left: auto;
