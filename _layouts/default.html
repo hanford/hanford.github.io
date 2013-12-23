@@ -44,7 +44,7 @@
     {% for post in site.posts %}
     <div class="topic">
       <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
-      <div class="preview"></div>
+      <a href="{{ post.url }}"><div class="preview">Read..</div></a>
     </div>
     {% endfor %}
   </div>
