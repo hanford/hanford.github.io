@@ -80,11 +80,16 @@ a {
 	cursor: pointer;
 }
 
-a:hover {
+.social:hover {
 	background-color: #D5D5DC;
 }
+
 /*
 .social {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }*/
+
+footer {
+	padding-bottom: 20px;
+}

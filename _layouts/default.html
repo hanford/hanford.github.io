@@ -20,7 +20,7 @@
       <img src="../../../images/me.jpg" class="profilePic">
     </a>
     <h2 class="title">Jack Hanford</h2>
-    <p class="subtle">This is where I am going to vent, <a href="http://daringfireball.net">Daring Fireball</a> style.</p>
+    <p class="subtle">This is where I am going to vent, <a class="social" href="http://daringfireball.net">Daring Fireball</a> style.</p>
     <div>
       <a class="sublte social" href="http://twitter.com/jackhanford">Twitter</a>
       <br />
@@ -44,7 +44,7 @@
     {% for post in site.posts %}
     <div class="topic">
       <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
-      <a href="{{ post.url }}"><div class="preview">Read..</div></a>
+      <a href="{{ post.url }}"><div class="preview">{{ post.description }}</div></a>
     </div>
     {% endfor %}
   </div>

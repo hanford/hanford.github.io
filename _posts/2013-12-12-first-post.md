@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Post"
-description: ""
+description: "Ignore.. first post."
 category: 
 tags: []
 ---
