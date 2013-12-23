@@ -24,5 +24,9 @@ $(document).ready(function() {
     $(".tlink").mouseenter();
     $(".flink").mouseenter();
     $(".elink").mouseenter();
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
   });
 });
