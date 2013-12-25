@@ -15,38 +15,46 @@
 </head>
 <body>
 <!-- Page beginning -->
-  <div class="introbox">
-    <a href="../../../index.html">
-      <img src="../../../images/me.jpg" class="profilePic">
-    </a>
-    <h2 class="title">Jack Hanford</h2>
-    <p class="subtle">This is where I am going to vent, <a class="social" href="http://daringfireball.net">Daring Fireball</a> style.</p>
-    <div>
-      <a class="sublte social" href="http://twitter.com/jackhanford">Twitter</a>
-      <br />
-      <br />
-      <a class="sublte social" href="http://facebook.com/jackhanford">Facebook</a>
-      <br />
-      <br />
-      <a class="sublte social" href="mailto:jackhanford.com">Email</a>
-      <br />
-      <br />
-      <a class="sublte social" href="http://github.com/jackhanford">Github</a>
-      <br />
-      <br />
-      <a class="sublte social" href="/2013/12/12/BlogIndex.html">Blog</a>
-      <br />
-      <br />
+  <div class="smallscreen">
+    <div class="frown">:(</div>
+    <br />
+    <div class="apology">Still trying to think of the design for my blog on my website..</div>
+  </div>
+
+  <div class="everything">
+    <div class="introbox">
+      <a href="../../../index.html">
+        <img src="../../../images/me.jpg" class="profilePic">
+      </a>
+      <h2 class="title">Jack Hanford</h2>
+      <p class="subtle">This is where I am going to vent, <a class="social" href="http://daringfireball.net">Daring Fireball</a> style.</p>
+      <div>
+        <a class="sublte social" href="http://twitter.com/jackhanford">Twitter</a>
+        <br />
+        <br />
+        <a class="sublte social" href="http://facebook.com/jackhanford">Facebook</a>
+        <br />
+        <br />
+        <a class="sublte social" href="mailto:jackhanford.com">Email</a>
+        <br />
+        <br />
+        <a class="sublte social" href="http://github.com/jackhanford">Github</a>
+        <br />
+        <br />
+        <a class="sublte social" href="/2013/12/12/BlogIndex.html">Blog</a>
+        <br />
+        <br />
+      </div>
+    </div> <!-- </introbox> -->
+    <div class="blogtitle pagetitle subtle">My thoughts</div>
+    <div class="posts">
+      {% for post in site.posts %}
+      <div class="topic">
+        <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
+        <a href="{{ post.url }}"><div class="preview">{{ post.description }}</div></a>
+      </div>
+      {% endfor %}
     </div>
-  </div> <!-- </introbox> -->
-  <div class="blogtitle pagetitle subtle">My thoughts</div>
-  <div class="posts">
-    {% for post in site.posts %}
-    <div class="topic">
-      <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
-      <a href="{{ post.url }}"><div class="preview">{{ post.description }}</div></a>
-    </div>
-    {% endfor %}
   </div>
 
 <!-- Page end -->
