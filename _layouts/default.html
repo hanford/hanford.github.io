@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../../../vendor/jquery-tipr/tipr/tipr.css">
 </head>
 <body>
-<!-- Page beginning -->
+<!-- Screen size check -->
   <div class="smallscreen">
     <div class="frown">:(</div>
     <br />
@@ -23,9 +23,9 @@
       <br />
       <a class="takemehome" href="../../../index.html">Take me home!</a>
     </div>
-
   </div>
-
+  <!-- </mobile check> -->
+  <!-- Page beginnning -->
   <div class="everything">
     <div class="introbox">
       <a href="../../../index.html">
@@ -51,12 +51,11 @@
         <br />
       </div>
     </div> <!-- </introbox> -->
-    <div class="blogtitle pagetitle subtle">My thoughts</div>
     <div class="posts">
       {% for post in site.posts %}
       <div class="topic">
         <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
-        <a href="{{ post.url }}"><div class="preview">{{ post.description }}</div></a>
+        <a href="{{ post.url }}"><div class="subtle">{{ post.description }}</div></a>
       </div>
       {% endfor %}
     </div>
