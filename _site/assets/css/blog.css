@@ -115,11 +115,10 @@ a {
 	background-color: #D5D5DC;
 }
 
-/*
-.social {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}*/
+.blogpostpicture {
+	width: 100%;
+	border: 5px solid #666665;
+}
 
 footer {
 	padding-bottom: 20px;
