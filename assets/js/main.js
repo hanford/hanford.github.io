@@ -29,4 +29,12 @@ $(document).ready(function() {
     }, 500);
     return false;
   });
+
+  $('.takemetop').click(function() {
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+  });
+
 });
