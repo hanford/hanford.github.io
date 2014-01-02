@@ -129,6 +129,10 @@ footer {
 	padding-bottom: 20px;
 }
 
+.rightbump {
+	margin-left: 350px;
+}
+
 body {
 	max-width: 900px;
 	margin-left: auto;
