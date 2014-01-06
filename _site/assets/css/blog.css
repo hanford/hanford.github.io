@@ -1,28 +1,35 @@
 @media screen and (max-width: 470px) {
-	.everything {
-		display: none;
+	.introbox {
+		text-align: center !important;
+		padding-top: 10px !important;
+		width: 100% !important;
+		z-index: 2 !important;
+		background-color: #E8E8F0;
+		height: auto;
+		max-width: 300px !important;
 	}
 
-	.smallscreen {
-		display: inherit !important;
-		text-align: center;
+	.blogbox {
+		width: 100% !important;
 	}
 
-	.frown {
-		font-size: 100px;
-		padding-top: 25%;
+	.posts {
+		padding-left: none !important;
 	}
 
-	.takemehome {
-		border: 2px solid gray;
-		border-radius: 3px;
-		padding: 5px;
+	.topic {
+		padding-left: 20px !important;
+		padding-right`: 20px !important;
 	}
 
-	.takemehome:hover {
-		background-color: gray;
-		color: white;
+	img {
+		display: none !important;
 	}
+
+}
+
+.blogbox {
+	padding-left: 60px;
 }
 
 .smallscreen {
@@ -30,7 +37,7 @@
 }
 
 .topic {
-	padding-left: 200px;
+	padding-left: 60px;
 	margin-bottom: 30px;
 	margin-top: 20px;
 }
@@ -73,8 +80,9 @@
 	text-align: left;
 	max-width: 150px;
 	padding-top: 10px;
+	padding-right: 20px;
 	padding-left: 15%;
-	height: 100%;
+	height: auto;
 	z-index: 2;
 	background-color: #E8E8F0;
 }
@@ -90,7 +98,7 @@
 }
 
 .posts {
-	padding-left: 15%;
+	padding-left: 20%;
 	padding-top: 2.5%;
 	z-index: 1;
 	max-width: 760px;
