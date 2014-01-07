@@ -30,6 +30,10 @@
 	}
 }
 
+p {
+	text-indent: 10px;
+}
+
 .blogbox {
 	padding-left: 60px;
 }
