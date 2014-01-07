@@ -25,14 +25,9 @@
 		padding-right`: 20px !important;
 	}
 
-	posts > img {
+	.topic > img {
 		display: none !important;
 	}
-
-	.profilePic {
-		border-radius: 0;
-	}
-
 }
 
 .blogbox {
