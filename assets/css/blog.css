@@ -25,10 +25,9 @@
 		padding-right`: 20px !important;
 	}
 
-	img {
+	posts > img {
 		display: none !important;
 	}
-
 }
 
 .blogbox {

@@ -25,8 +25,12 @@
 		padding-right`: 20px !important;
 	}
 
-	img {
+	posts > img {
 		display: none !important;
+	}
+
+	.profilePic {
+		border-radius: 0;
 	}
 
 }
