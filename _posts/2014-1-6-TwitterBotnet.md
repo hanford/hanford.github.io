@@ -18,10 +18,10 @@ tags: []
 <p>According to <a href="http://www.nbcnews.com/technology/1-10-twitter-accounts-fake-say-researchers-2D11655362">recent reports</a> one in ten twitter accounts are fake. Every social network has to fight spam, it's a vicious game of cat and mouse. Unfortunately the mouse (The people starting these botnets) have the advantage. Below are a few examples..</p> 
 
 <div>
-	<img class="blogpostpicture" style="height:100px;" src="../../../images/SpamPost/twitter.png">
+	<img class="blogpostpicture" style="height:80px;" src="../../../images/SpamPost/twitter.png">
 	<br />
 	<br />
-	<img class="blogpostpicture" style="height:250px;" src="../../../images/SpamPost/twitter2.png">
+	<img class="blogpostpicture" style="height:320pxpx;" src="../../../images/SpamPost/twitter2.png">
 	<br />
 	<br />
 	<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook.png">
