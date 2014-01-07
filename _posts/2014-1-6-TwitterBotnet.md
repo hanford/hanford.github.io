@@ -19,7 +19,11 @@ tags: []
 
 <div>
 	<img class="blogpostpicture" style="height:100px;" src="../../../images/SpamPost/twitter.png">
+	<br />
+	<br />
 	<img class="blogpostpicture" style="height:250px;" src="../../../images/SpamPost/twitter2.png">
+	<br />
+	<br />
 	<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook.png">
 	<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook2.png">
 </div>
