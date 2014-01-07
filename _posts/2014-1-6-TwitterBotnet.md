@@ -17,12 +17,12 @@ tags: []
 
 <p>According to <a href="http://www.nbcnews.com/technology/1-10-twitter-accounts-fake-say-researchers-2D11655362">recent reports</a> one in ten twitter accounts are fake. Every social network has to fight spam, it's a vicious game of cat and mouse. Unfortunately the mouse (The people starting these botnets) have the advantage. Below are a few examples..</p> 
 
-<img class="blogpostpicture" style="height:100px;" src="../../../images/SpamPost/twitter.png">
-
-<img class="blogpostpicture" style="height:250px;" src="../../../images/SpamPost/twitter2.png">
-
-<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook.png">
-<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook2.png">
+<div>
+	<img class="blogpostpicture" style="height:100px;" src="../../../images/SpamPost/twitter.png">
+	<img class="blogpostpicture" style="height:250px;" src="../../../images/SpamPost/twitter2.png">
+	<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook.png">
+	<img class="blogpostpicturehalf" style="height:250px;" src="../../../images/SpamPost/facebook2.png">
+</div>
 
 <p>I watch who I follow on twitter, I don't exactly have a reason for this I just do. And the inspiration from this blog post came from me having to actively unfollow random accounts that I didn't follow in the first place. The first 5 times I had to unfollow accounts, I figured I granted some malicious application rights to my twitter account. So I went and cleared out the permissions, only granting a few well respected companies access to my twitter (Apple, Spotify, Instagram etc). Problem solved, right? Not exactly, My twitter account still follows people without my permission which leads me to think I am apart of some botnet.</p>
 
