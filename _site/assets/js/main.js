@@ -37,4 +37,12 @@ $(document).ready(function() {
     return false;
   });
 
+  $('.profilePic').mouseenter(function() {
+    $('.profilePic').addClass('img2');
+  });
+
+  $('.profilePic').mouseleave(function() {
+    $('.profilePic').removeClass('img2');
+  });
+
 });

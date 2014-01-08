@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Are social networks becoming the new king of botnets?"
-description: "An essay suggesting the spam problem is being overlooked"
+description: "I write about a problem I feel is being overlooked and is growing"
 category: 
 tags: []
 ---
