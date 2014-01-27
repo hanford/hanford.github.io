@@ -1,3 +1,11 @@
+// function cursorAnimation() {
+//     $('#cursor').animate({
+//         opacity: 0
+//     }, 'fast', 'swing').animate({
+//         opacity: 1
+//     }, 'fast', 'swing');
+// }
+
 $(document).ready(function() {
   $('.tip').tipr();
   $("#jbtn").click(function(e) {
@@ -5,9 +13,6 @@ $(document).ready(function() {
     $(".about.none").fadeIn();
     $(this).fadeOut("fast")
     $(".toppadd").slideUp();
-  });
-
-  $(document).ready(function() {
     $('.slideshow img:gt(0)').fadeOut();
       setInterval(function(){
         $('.slideshow :first-child').fadeIn()
