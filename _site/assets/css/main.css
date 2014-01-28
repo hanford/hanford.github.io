@@ -199,3 +199,31 @@ footer {
 .shrank {
 	width: 80%;
 }
+
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	  margin: 0 auto;
+  width: 320px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 10px;
+  fill: transparent;
+  stroke: #000;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-size: 22px;
+  color: #808080;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 1px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}

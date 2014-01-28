@@ -14,39 +14,39 @@
     <div class="fidy"></div>
   </div>
 
-        <!-- Headers -->
-    <div class="whiteback">
-      <div class="container">
-        <div class="title2">Header / Navbar</div>
-        <div class="iphone">
-          <div class="headerspan">
-            <div class="nav nav-white">
-              <div class="nav-btn-left">Left Button</div>
-              <div class="nav-btn-right">Right Button</div>
-              <div>This is a Title</div>
-            </div>
-            <div class="nav-blur"></div>
-            <ul>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="recieved">To see the blur effect you must scroll!</li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li><img src="images/dog.jpg"></li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="recieved">To see the blur effect you must scroll!</li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="recieved">To see the blur effect you must scroll!</li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="recieved">To see the blur effect you must scroll!</li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="recieved">To see the blur effect you must scroll!</li>
-              <li class="sent">To see the blur effect you must scroll!</li>
-              <li class="recieved">To see the blur effect you must scroll!</li>
-            </ul>
+  <!-- Headers -->
+  <div class="whiteback">
+    <div class="container">
+      <div class="title2">Header / Navbar</div>
+      <div class="iphone">
+        <div class="headerspan">
+          <div class="nav nav-white">
+            <div class="nav-btn-left">Left Button</div>
+            <div class="nav-btn-right">Right Button</div>
+            <div>This is a Title</div>
           </div>
+          <div class="nav-blur"></div>
+          <ul>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="recieved">To see the blur effect you must scroll!</li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li><img src="images/dog.jpg"></li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="recieved">To see the blur effect you must scroll!</li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="recieved">To see the blur effect you must scroll!</li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="recieved">To see the blur effect you must scroll!</li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="recieved">To see the blur effect you must scroll!</li>
+            <li class="sent">To see the blur effect you must scroll!</li>
+            <li class="recieved">To see the blur effect you must scroll!</li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
   <div class="container">
     <div class="button" align="center">
       <div class="btn btn-red">Red</div>
@@ -60,58 +60,58 @@
       <div class="howto">
         <div class="title2">How I achieved the effect</div>
         <p>This is something I was really confused about for a little bit, until it found clever solution. I am calling <code>.header</code> which has a higher z-index then <code>.header-blur</code>. Header-blur is placed directly under the header with the CSS filters that blur the contents when scrolling. This is kind of neat because it can provides some context to the navbar having content above it. It's subtle, but it's a great touch.</p>
-          <code>
-            .nav { <br />
-            position: absolute; <br />
-            z-index: 3; <br />
-            top: 0; <br />
-            left: 0; <br />
-            width: 100.5%; <br />
-            height: 44px; <br />
-            line-height: 44px; <br />
-            padding: 0; <br />
-            color: #eee; <br />
-            font-size: 20px; <br />
-            text-align: center; <br />
-          }
-          <br />
-          <br />
-          .nav-blur { <br />
-              position: absolute; <br />
-              z-index: 2; <br />
-              -webkit-filter: blur(3px); <br />
-              -moz-filter: blur(3px); <br />
-              -ms-filter: blur(3px); <br />
-              -o-filter: blur(3px); <br />
-              filter: blur(3px); <br />
-              background: rgba(250,250,250,0.9); <br />
-              top: 0; <br />
-              left: 0; <br />
-              width: 100%; <br />
-              height: 44px; <br />
-              padding: 0; <br />
-          }
-          </code>
-          <p class="excuse">It's a little hacky on the actual webpage as I had to some unconventional things .. but it works great on actual websites :)</p>
-          <br />
-        </div>
-      </div>
+        <code>
+          .nav { <br />
+          position: absolute; <br />
+          z-index: 3; <br />
+          top: 0; <br />
+          left: 0; <br />
+          width: 100.5%; <br />
+          height: 44px; <br />
+          line-height: 44px; <br />
+          padding: 0; <br />
+          color: #eee; <br />
+          font-size: 20px; <br />
+          text-align: center; <br />
+        }
+        <br />
+        <br />
+        .nav-blur { <br />
+        position: absolute; <br />
+        z-index: 2; <br />
+        -webkit-filter: blur(3px); <br />
+        -moz-filter: blur(3px); <br />
+        -ms-filter: blur(3px); <br />
+        -o-filter: blur(3px); <br />
+        filter: blur(3px); <br />
+        background: rgba(250,250,250,0.9); <br />
+        top: 0; <br />
+        left: 0; <br />
+        width: 100%; <br />
+        height: 44px; <br />
+        padding: 0; <br />
+      }
+    </code>
+    <p class="excuse">It's a little hacky on the actual webpage as I had to some unconventional things .. but it works great on actual websites :)</p>
+    <br />
+  </div>
+</div>
+</div>
+<!-- Knobs -->
+<div class="fidy"></div>
+<div class="container">
+  <div class="title2 titlecolor">iOS 7 Knobs / Switches</div>
+</div>
+<div class="whiteback">
+  <div class="container">
+    <div class="padder">
+      <p>These are some of the best things I have ever created in CSS. I am really proud of these because they resemble iOS 7 very well.. atleast in my opinion. They were also very challenging to create. I am using the HTML <code>label</code> tag to toggle the transparent checkbox. I first read about this functionality <a href="http://www.w3schools.com/tags/tag_label.asp">here</a> on w3 suprisingly.</p>
+      <label><input type="checkbox" class="ios-switch green bigswitch" checked /><div><div></div></div></label>
+      <label><input type="checkbox" class="ios-switch bigswitch" checked /><div><div></div></div></label>
+      <p>In my last job, our designer requested we use these as checkbox's and unforunately we didn't have enough time to implement these, because they really are pretty good looking if I say so myself..</p>
     </div>
-        <!-- Knobs -->
-    <div class="fidy"></div>
-    <div class="container">
-      <div class="title2 titlecolor">iOS 7 Knobs / Switches</div>
-    </div>
-    <div class="whiteback">
-      <div class="container">
-        <div class="padder">
-          <p>These are some of the best things I have ever created in CSS. I am really proud of these because they resemble iOS 7 very well.. atleast in my opinion. They were also very challenging to create. I am using the HTML <code>label</code> tag to toggle the transparent checkbox. I first read about this functionality <a href="http://www.w3schools.com/tags/tag_label.asp">here</a> on w3 suprisingly.</p>
-          <label><input type="checkbox" class="ios-switch green bigswitch" checked /><div><div></div></div></label>
-          <label><input type="checkbox" class="ios-switch bigswitch" checked /><div><div></div></div></label>
-          <p>In my last job, our designer requested we use these as checkbox's and unforunately we didn't have enough time to implement these, because they really are pretty good looking if I say so myself..</p>
-        </div>
-      </div>
-    </div>
+  </div>
+</div>
 <!--     <div class="fidy"></div>
      <div class="container">
       <div class="title2 titlecolor">Dialer</div>
@@ -155,4 +155,4 @@
   </body>
   <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
   <script type="text/javascript" src="js/javascript.js"></script>
-</html>
+  </html>
