@@ -19,7 +19,6 @@ $(document).ready(function() {
 
   $('.BringEmAll').click(function() {
     $(".tlink").mouseenter();
-    $(".flink").mouseenter();
     $(".elink").mouseenter();
     $('html, body').animate({
       scrollTop: $( $(this).attr('href') ).offset().top
