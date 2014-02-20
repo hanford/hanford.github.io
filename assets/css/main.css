@@ -110,28 +110,6 @@ h3 {
 	border-radius: 80px;
 }
 
-.jbtn {
-	background: #697FA0;
-	border-bottom: 2px solid #516D98;
-	padding: 12px 16px 8px;
-	line-height: 1;
-	border-radius: 3px;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	display: inline-block;
-	text-decoration: none;
-}
-
-.jbtn:hover {
-	text-decoration: none;
-	background-color: #5C7CAD;
-}
-
-.jbtn:active {
-	margin-top: 1px;
-	border-bottom: 1px solid #516D98;
-}
-
 .photosection {
 	margin-right: auto;
 	margin-left: auto;

@@ -1,0 +1,75 @@
+/* Jack's buttons! */
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.42rem;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+}
+
+.bttn {
+  padding: 8px 13px;
+  border-radius: 2px;
+  color: white;
+  background-color: #D8DFE4;
+  text-transform: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.bttn:hover {
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,.27);
+}
+
+.bttn:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.bttn-primary {
+  background-color: #3276B1;
+}
+
+.bttn-primary:hover {
+  background-color: #428BCA;
+}
+
+.bttn-success {
+  background-color: #47A447;
+}
+
+.bttn-success:hover {
+  background-color: #5CB85C;
+}
+
+.bttn-info {
+  background-color: #39B3D7;
+}
+
+.bttn-info:hover {
+  background-color: #5BC0DE;
+}
+
+.bttn-danger {
+  background-color: #D2322D;
+}
+
+.bttn-danger:hover {
+  background-color: #D9534F;
+}
+
+.bttn-warning {
+  background-color: #ED9C28;
+}
+
+.bttn-warning:hover {
+  background-color: #F0AD4E;
+}
