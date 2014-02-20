@@ -1,6 +1,6 @@
 /* Jack's buttons! */
 
-button {
+button, a {
   background: none repeat scroll 0 0 transparent;
   border: medium none;
   border-spacing: 0;
