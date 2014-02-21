@@ -185,3 +185,13 @@ footer {
 .shrank {
 	width: 80%;
 }
+
+.mobile-hide {
+	display: inherit;
+}
+
+@media screen and (max-width: 470px) {
+	.mobile-hide {
+		display: none !important;
+	}
+}
