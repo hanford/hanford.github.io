@@ -6,6 +6,14 @@ html {
 	overflow-x: none;
 }
 
+.clearfix {
+	clear: both;
+}
+
+.font18 {
+	font-size: 18px;
+}
+
 .center {
 	margin-right: auto;
 	margin-left: auto;
@@ -19,11 +27,11 @@ h3 {
 	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 23px;
 }
 
 .fa {
 	text-decoration: none;
-	font-size: 22pt;
 }
 
 .flink {
