@@ -18,8 +18,8 @@ $(document).ready(function() {
   });
 
   $('.BringEmAll').click(function() {
-    $(".tlink").mouseenter();
-    $(".elink").mouseenter();
+    $(".fa-twitter").mouseenter();
+    $(".fa-envelope").mouseenter();
     $('html, body').animate({
       scrollTop: $( $(this).attr('href') ).offset().top
     }, 500);

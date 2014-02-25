@@ -32,55 +32,36 @@ h3 {
 
 .fa {
 	text-decoration: none;
-}
-
-.flink {
+	width: 10%;
 	color: gray;
-	width: 15%;
 }
 
-.flink:hover {
+.fa-facebook:hover {
 	color: #45619D;
 }
 
-.tlink {
-	color: gray;
-	width: 15%;
+.fa-flask:hover {
+	color: #6196CA;
 }
 
-.tlink:hover {
+.fa-twitter:hover {
 	color: #2596C6;
 }
 
-.glink {
-	color: gray;
-	width: 15%;
-}
-
-.blink {
-	color: gray;
-	width: 15%;
-}
-
-.blink:hover {
-	color: #683E34;
-}
-
-.glink:hover {
+.fa-github-alt:hover {
 	color: #333333;
 }
 
-.elink {
-	color: gray;
-	width: 15%;
-}
-
-.elink:hover {
+.fa-envelope:hover {
 	color: #DD4B39;
 }
 
-.bulllink:hover {
+.fa-bullhorn:hover {
 	color: #000;
+}
+
+.fa-briefcase:hover {
+	color: #683E34;
 }
 
 .container {
