@@ -210,14 +210,27 @@ footer {
   display: none;
 }
 
+.blogtitle {
+  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #333332;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 470px) {
 	.mobile-hide {
 		display: none !important;
 	}
 
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 	.polaroid-images a {
     left: 10%;
   }
-
-
 }

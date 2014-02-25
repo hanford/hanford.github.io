@@ -28,6 +28,13 @@ title: index
         Nervous but excited, I found myself in Palo Alto, CA. I was in technology capital of the world. My life was about to change faster then I could have ever predicted. I would love to talk about what I am working on and probably don't have enough space to fill you in about it here but you can read about some of my adventures <a href="http://stuvoice.org/blog/2012/08/09/jack-hanford-recent-high-school-graduate-not-taking-traditional-college-route-california/">here</a>.
       </p>
       <hr>
+      <h3>What I'm writing about</h3>
+      {% for post in site.posts %}
+      <div class="topic">
+        <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
+      </div>
+      {% endfor %}
+      <hr>
       <h3>Hobbies</h3>
       <p>
        <strong>Biking</strong><br />
@@ -64,9 +71,6 @@ title: index
       <footer>
         <span>
           <button class="BringEmAll bttn bttn-primary" href="#top">Get in touch</button>
-        </span>
-        <span>
-          <a href="/2013/12/12/BlogIndex.html" class="reset-anchor bttn bttn-primary">Blog</a>
         </span>
         <span>
           <a href="/portfolio" class="reset-anchor bttn bttn-primary">Portfolio</a>

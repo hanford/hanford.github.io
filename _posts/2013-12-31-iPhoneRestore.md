@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting around iPhone restore restrictions"
+title: "Circumventing iPhone restore restrictions"
 description: "In this post, I describe how to circumvent apples restore check"
 category: 
 tags: []

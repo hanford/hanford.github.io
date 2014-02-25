@@ -112,3 +112,7 @@ button, .reset-anchor {
 .bttn-warning:hover {
   background-color: #F0AD4E;
 }
+
+a.bttn {
+  padding: 10px 15px;
+}
