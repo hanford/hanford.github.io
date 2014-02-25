@@ -1,72 +1,29 @@
+---
+title: Portfolio
+---
 <!-- Hows my code? ... Send me an email jackhanford@gmail.com-->
 <html>
-<head>
-  <title>Jack Hanford</title>
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/bttn.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/second.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/animations.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../vendor/jquery-tipr/tipr/tipr.css">
-  <link rel="icon" type="image/png" href="../images/me.jpg">
-</head>
+{% include head.html %}
 <body>
-  <div class="introbox">
-    <a href="../index.html">
-      <img src="../images/me.jpg" class="profilePic">
-    </a>
-    <h2 class="title">Jack Hanford</h2>
-    <p class="center">Hacker, Marketer, Technology Addict.</p>
-    <div id="top" class="buttonspace">
-      <a href="#" class="fa fa-briefcase tip" data-tip="What I've worked on"></a>
-      <a href="../2013/12/12/BlogIndex.html" class="fa fa-bullhorn tip" data-tip="Blog"></a>
-      <a href="http://twitter.com/jackhanford" class="fa fa-twitter tip" data-tip="Twitter"></a>
-      <a href="http://github.com/jackhanford" class="fa fa-github-alt social tip" data-tip="GitHub"></a>
-      <a href="http://facebook.com/jackhanford" class="fa fa-facebook tip" data-tip="Facebook"></a>
-      <a href="mailto:jackhanford@gmail.com" class="fa fa-envelope tip" data-tip="Email"></a>
-      <a href="/labs/" class="fa fa-flask tip" data-tip="Playground"></a>
+  {% include about-me-not-index.html %}
+  <div class="container">
+    <h3 class="clearfix">Previous Projects</h3>
+    <div class="polaroid-images">
+      <a href="http://joinhomebase.com" title="Homebase"><img src="../images/homebase.png" alt="Homebase" title="Homebase" /></a>
+      <a href="http://refresh.io" title="Refresh.io"><img src="../images/refresh.png" alt="Refresh" title="Refresh" /></a>
+      <a href="http://techcrunch.com/2012/09/26/after-2-months-of-squatting-at-aol-eric-simons-launches-claco-the-github-for-teachers/" title="Claco"><img src="../images/claco.png" alt="../Claco.png" title="claco" /></a>
+      <a href="http://paloaltorooster.com/" title="Palo Alto Rooster"><img src="../images/PaloRooster.png" title="Palo Alto Rooster" /></a>
     </div>
-    <div class="container">
-      <h3 class="clearfix">Previous Projects</h3>
-      <div class="polaroid-images">
-        <a href="http://joinhomebase.com" title="Homebase"><img src="../images/homebase.png" alt="Homebase" title="Homebase" /></a>
-        <a href="http://refresh.io" title="Refresh.io"><img src="../images/refresh.png" alt="Refresh" title="Refresh" /></a>
-        <a href="http://techcrunch.com/2012/09/26/after-2-months-of-squatting-at-aol-eric-simons-launches-claco-the-github-for-teachers/" title="Claco"><img src="../images/claco.png" alt="../Claco.png" title="claco" /></a>
-        <a href="http://paloaltorooster.com/" title="Palo Alto Rooster"><img src="../images/PaloRooster.png" title="Palo Alto Rooster" /></a>
-      </div>
-      <div class="clearfix">
-        <p>Only showing a few projects here, I have other work on my github.</p>
-        <br />
-        <p>Want to take a look at my resume? You can take a look at it <a id="bottom" href="#bottom" class="resumetoggle">here</a> or download it <a href="../files/JackHanford_Resume.pdf">here.</a></p>
-        <embed id="#bottom" class="resume" src="../files/JackHanford_Resume.pdf" width="90%" height="100%">
-      </div>
-      </div>
+    <div class="clearfix">
+      <p>Only showing a few projects here, I have other work on my github.</p>
       <br />
-      <hr class="shrank">
-      <footer>
-        <button class="BringEmAll bttn bttn-primary" href="#top">Get in touch</button>
-        <a href="/2013/12/12/BlogIndex.html" class="reset-anchor bttn bttn-primary">Blog</a>
-        <a class="reset-anchor bttn bttn-primary" href="../index.html">Home</a>
-        <br />
-        <br />
-        <a href="https://twitter.com/intent/tweet?screen_name=jackhanford" class="twitter-mention-button" data-lang="en">Tweet to @jackhanford</a>
-        <br />
-      </footer>
-      <div class="bottompad"></div>
-      <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-45226320-1', 'jackhanford.com');
-      ga('send', 'pageview');
-
-    </script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-    <script src="../assets/js/main.js"></script>
-    <script type="text/javascript" src="../vendor/jquery-tipr/tipr/tipr.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <p>
+        Want to take a look at my resume? You can take a look at it <a id="bottom" href="#bottom" class="resumetoggle">here</a> or download it <a href="../files/JackHanford_Resume.pdf">here.</a>
+      </p>
+      <embed id="#bottom" class="resume" src="../files/JackHanford_Resume.pdf" width="90%" height="100%">
+      </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </div>
   </body>
   </html>
