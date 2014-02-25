@@ -27,12 +27,6 @@
       <a href="mailto:jackhanford@gmail.com" class="fa fa-envelope tip" data-tip="Email"></a>
       <a href="/labs/" class="fa fa-flask tip" data-tip="Playground"></a>
       <br />
-            {% for post in site.posts %}
-      <div class="topic">
-        <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
-        <a href="{{ post.url }}"><div class="subtle">{{ post.description }}</div></a>
-      </div>
-      {% endfor %}
       <br />
       <button id="jbtn" class="bttn bttn-primary" href="javascript:void(0)">More about me</button>
     </div>
