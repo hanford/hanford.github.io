@@ -8,57 +8,43 @@
     <link rel="stylesheet" type="text/css" href="../../../assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="../../../assets/css/animations.css">
 
-    <link rel="stylesheet" type="text/css" href="../../../assets/css/blog.css">
-
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../../../assets/vendor/jquery-tipr/tipr/tipr.css">
+    <link rel="stylesheet" type="text/css" href="../../../vendor/jquery-tipr/tipr/tipr.css">
 
     <link rel="icon" type="image/png" href="../../../images/me.jpg">
 </head>
 <body>
-<!-- Page beginning -->
-  <div class="introbox">
-    <a href="../../../index.html">
-      <img src="../../../images/me.jpg" class="profilePic">
-    </a>
-    <h2 class="title">Jack Hanford</h2>
-    <div>
-      <a class="sublte social" href="http://twitter.com/jackhanford">Twitter</a>
-      <br />
-      <br />
-      <a class="sublte social" href="http://facebook.com/jackhanford">Facebook</a>
-      <br />
-      <br />
-      <a class="sublte social" href="mailto:jackhanford.com">Email</a>
-      <br />
-      <br />
-      <a class="sublte social" href="http://github.com/jackhanford">Github</a>
-      <br />
-      <br />
-      <a class="sublte social" href="/">Home</a>
-      <br />
-      <br />
-    </div>
-  </div> <!-- </introbox> -->
+<div class="introbox">
+  <a href="../../../index.html">
+    <img src="../../../images/me.jpg" class="profilePic">
+  </a>
+  <h2 class="title">Jack Hanford</h2>
+  <p class="center">Hacker, Marketer, Technology Addict.</p>
+  <div id="top" class="buttonspace">
+    <a href="/portfolio" class="fa fa-briefcase tip" data-tip="What I've worked on"></a>
+    <!-- <a href="../2013/12/12/BlogIndex.html" class="fa fa-bullhorn tip" data-tip="Blog"></a> -->
+    <a href="http://twitter.com/jackhanford" class="fa fa-twitter tip" data-tip="Twitter"></a>
+    <a href="http://github.com/jackhanford" class="fa fa-github-alt social tip" data-tip="GitHub"></a>
+    <a href="http://facebook.com/jackhanford" class="fa fa-facebook tip" data-tip="Facebook"></a>
+    <a href="mailto:jackhanford@gmail.com" class="fa fa-envelope tip" data-tip="Email"></a>
+    <a href="/labs/" class="fa fa-flask tip" data-tip="Playground"></a>
+  </div>
     <div id="top" class="posts">
       <div class="topic">
         <p>
 
-          <h2>Circumvent iOS restore version check</h2><p>This past week the evad3rs released an iPhone jailbreak for iOS 7. I was very eager to check it out because I have been a jailbreaker since the very first iPhone in 2007. If you aren't familiar with jailbreaking, you can read more about it <a class='' href='http://en.wikipedia.org/wiki/IOS_jailbreaking'>here.</a></p><p>While restoring, I realized Apple no longer allows you to restore from a backup of a later iOS backup. This caused a pretty major headache for me, so I am going to write about how I was able to get around it.</p><p>A while back I deleted a few iOS backups on my computer to free up some space and remembering that file path turned out to be very helpful. Navigating finder to this path <code>~/Library/Application Support/MobileSync/Backup/</code> I was then able to locate the corresponding backup.</p><img class='blogpostpicture' src='../../../images/iPhoneRestorePost/backup.png' style='height:315px;' /><p>From here I was able to inspect the contents of the folders to determine the correct backup file I was looking for. Inside the backup folders, you can easily locate a file named <code>Info.plist</code>. This property list file holds all of the information of the iPhone that was backed up.</p><p>Opening the <code>info.plist</code> with .plist editor was really easy. (Apparently Sublime Text 2 can't handle .plist's very well) I had download a separate text editor to do so, if you're on a OS X machine you can just use this free program named <a class='' href='http://www.fatcatsoftware.com/plisteditpro/'>PlistEdit Pro.</a></p><p>It's all down hill from there. Once you have opened <code>info.plist</code> you can locate the key <code>Product Version</code> and simply edit the string below that to the desired iOS version that you are trying to restore to.</p><img class='blogpostpicture' src='../../../images/iPhoneRestorePost/string.png' style='height:145px;' /><br /><p>Restoring from a newer iOS version has caused me absolutely no issues whatsoever. All of my settings and application data restored flawlessly and this entire procedure left me confused as to why apple doesn't allow this in the first place. That being said, the only occasion you would probably be doing this is to jump from firmware to firmware which Apple tends to not like.</p>
+          <h2 class='center'>Circumvent iOS restore version check</h2><p>This past week the evad3rs released an iPhone jailbreak for iOS 7. I was very eager to check it out because I have been a jailbreaker since the very first iPhone in 2007. If you aren't familiar with jailbreaking, you can read more about it <a class='' href='http://en.wikipedia.org/wiki/IOS_jailbreaking'>here.</a></p><p>While restoring, I realized Apple no longer allows you to restore from a backup of a later iOS backup. This caused a pretty major headache for me, so I am going to write about how I was able to get around it.</p><p>A while back I deleted a few iOS backups on my computer to free up some space and remembering that file path turned out to be very helpful. Navigating finder to this path <code>~/Library/Application Support/MobileSync/Backup/</code> I was then able to locate the corresponding backup.</p><img class='blogpostpicture px600' src='../../../images/iPhoneRestorePost/backup.png' style='height:315px;' /><p>From here I was able to inspect the contents of the folders to determine the correct backup file I was looking for. Inside the backup folders, you can easily locate a file named <code>Info.plist</code>. This property list file holds all of the information of the iPhone that was backed up.</p><p>Opening the <code>info.plist</code> with .plist editor was really easy. (Apparently Sublime Text 2 can't handle .plist's very well) I had download a separate text editor to do so, if you're on a OS X machine you can just use this free program named <a class='' href='http://www.fatcatsoftware.com/plisteditpro/'>PlistEdit Pro.</a></p><p>It's all down hill from there. Once you have opened <code>info.plist</code> you can locate the key <code>Product Version</code> and simply edit the string below that to the desired iOS version that you are trying to restore to.</p><img class='blogpostpicture px600' src='../../../images/iPhoneRestorePost/string.png' style='height:145px;' /><br /><p>Restoring from a newer iOS version has caused me absolutely no issues whatsoever. All of my settings and application data restored flawlessly and this entire procedure left me confused as to why apple doesn't allow this in the first place. That being said, the only occasion you would probably be doing this is to jump from firmware to firmware which Apple tends to not like.</p>
 
         </p>
       </div>
     </div>
     <br />
-    <br />
-    <footer>
-      <a class="sublte" href="/2013/12/12/BlogIndex.html">Blog Index</a>
-      -
-      <a class="takemetop" href="#top">Back to the top</a>
-      <br />
-      <br />
-      <!-- <a id="feedback" class="jbtn" href="#top">Feedback</a> -->
-    </footer>
+<footer>
+  <a class="sublte" href="/">Home</a>
+  -
+  <a class="takemetop" href="#top">Back to the top</a>
+  <br />
+</footer>
   <!-- Page end -->
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -220,6 +220,20 @@ footer {
   text-decoration: none;
 }
 
+.topic {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topic > p {
+  text-align: left;
+}
+
+.px600 {
+  width: 600px;
+}
+
 @media screen and (max-width: 470px) {
 	.mobile-hide {
 		display: none !important;
