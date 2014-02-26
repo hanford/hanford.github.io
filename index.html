@@ -12,6 +12,7 @@ title: index
   <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
 
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="vendor/jquery-tipr/tipr/tipr.css">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/me.jpg">
@@ -31,7 +32,7 @@ title: index
       <h3>What I'm writing about</h3>
       {% for post in site.posts %}
       <div class="topic">
-        <a href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
+        <a class="no-underline" href="{{ post.url }}"><div class="blogtitle">{{ post.title }}</div></a>
       </div>
       {% endfor %}
       <hr>

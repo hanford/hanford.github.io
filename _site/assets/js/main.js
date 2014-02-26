@@ -1,8 +1,9 @@
 $(document).ready(function() {
   $('.tip').tipr();
+
   $("#jbtn").click(function(e) {
   	e.preventDefault();
-    $(".about.none").fadeIn();
+    $(".about").fadeIn();
     $(this).fadeOut("fast")
     $(".toppadd").slideUp();
     $('.slideshow img:gt(0)').fadeOut();

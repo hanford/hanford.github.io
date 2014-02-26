@@ -1,5 +1,6 @@
 html {
 	background-color: #E8E8F0;
+  color: rgba(0,0,0, 0.7);
 	height: 100%;
 	width: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -77,8 +78,9 @@ h3 {
 
 .title {
 	letter-spacing: -1px;
-	color: black;
+  color: rgba(0,0,0, 0.9);
 	font-weight: 900;
+  font-family: 'Pacifico', cursive;
 }
 
 .toppadd {
@@ -210,6 +212,10 @@ footer {
   display: none;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .blogtitle {
   font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
   font-weight: 700;
@@ -217,7 +223,6 @@ footer {
   line-height: 1.1;
   color: #333332;
   margin-bottom: 4px;
-  text-decoration: none;
 }
 
 .topic {
