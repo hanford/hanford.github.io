@@ -35,7 +35,7 @@ h3 {
 .fa {
 	text-decoration: none;
 	width: 10%;
-	color: gray;
+  color: rgba(0,0,0, 0.7)
 }
 
 .fa-facebook:hover {
