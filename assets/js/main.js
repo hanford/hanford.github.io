@@ -3,8 +3,8 @@ $(document).ready(function() {
 
   $("#jbtn").click(function(e) {
   	e.preventDefault();
-    $(".about").fadeIn();
-    $(this).fadeOut("fast")
+    $(".about").addClass('animated fadeInRightBig').fadeIn();
+    $(this).addClass('animated fadeOutLeftBig').fadeOut();
     $(".toppadd").slideUp();
     $('.slideshow img:gt(0)').fadeOut();
     setInterval(function(){

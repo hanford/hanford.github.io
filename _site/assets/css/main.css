@@ -30,6 +30,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 23px;
+  height: 40px;
 }
 
 .fa {
@@ -80,7 +81,8 @@ h3 {
 	letter-spacing: -1px;
   color: rgba(0,0,0, 0.9);
 	font-weight: 900;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
 }
 
 .toppadd {
