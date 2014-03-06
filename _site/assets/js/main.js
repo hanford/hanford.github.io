@@ -4,12 +4,13 @@ $(document).ready(function() {
   $("#jbtn").click(function(e) {
   	e.preventDefault();
     $(".about").fadeIn();
+    $('body').css('overflow', 'visible');
     $(this).hide().slideUp("fast");
     $(".toppadd").slideUp();
-    $('.slideshow img:gt(0)').fadeOut();
+    $('.slideshow img:gt(0)').addClass('animated rollIn');
     setInterval(function(){
-      $('.slideshow :first-child').fadeIn()
-      .next('img').fadeOut()
+      $('.slideshow :first-child').addClass('animated rollIn')
+      .next('img').addClass('rollIn')
       .end().appendTo('.slideshow');},
       3000);
   });

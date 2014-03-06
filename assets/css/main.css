@@ -102,6 +102,7 @@ h3 {
 	height: 160px;
 	width: 160px;
 	border-radius: 80px;
+  box-shadow: 0px 0px 10px rgba(82, 82, 82, 0.50);
 }
 
 .photosection {
@@ -151,7 +152,7 @@ h3 {
 	color: white;
 	text-shadow: 0px 1px 10px #000;
 	position: absolute;
-	z-index: 10;
+	z-index: 100;
 	padding-left: 15px;
 }
 
