@@ -18,7 +18,10 @@ html {
 	z-index: 1;
 }
 
-input[type=text], input[type=email], input[type=password], textarea {
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
 	line-height: normal;
 	font-weight: 500;
 	border: none;
