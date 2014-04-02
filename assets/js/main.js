@@ -7,6 +7,7 @@ $(document).ready(function() {
     $('body').css('overflow', 'visible');
     $(this).hide().slideUp("fast");
     $(".toppadd").slideUp();
+    
     $('.slideshow img:gt(0)').addClass('animated rollIn');
     setInterval(function(){
       $('.slideshow :first-child').addClass('animated rollIn')
