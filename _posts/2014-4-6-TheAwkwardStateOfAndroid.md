@@ -7,7 +7,7 @@ tags: []
 ---
 <!-- Title -->
 <h2>Android OEM's</h2>
-<small>OEM = Original Equipment Manufacturer</small>
+<h6>OEM = Original Equipment Manufacturer</h6>
 <!-- First paragraph -->
 <p>Android is one of the worlds most popular operating systems. Being open source it is really easy for anyone to just download the source and build it. This is why it is so popular and is dominating the smartphone marketplace. Hardware companies like <a href="http://www.lg.com/us">LG</a>, <a href="http://www.samsung.com/us/">Samsung</a>, <a href="http://www.htc.com/us/smartphones/">HTC</a>, <a href="http://sony.com">Sony</a> and <a href="http://motorola.com">Motorola</a> don't need to write their own operating system or Appstore to compete in the smartphone market - they can just use android. By taking this route, you have access to Google services which is one of the best parts of android you get to use the <a href="https://play.google.com/store">Play store</a> which has over a million applications already on it.</p>
 
