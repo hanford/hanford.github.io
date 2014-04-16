@@ -28,4 +28,5 @@ tags: []
 
 <h4>Relevant Links</h4>
 <a href="http://www.androidcentral.com/htc-details-android-oem-update-process-fancy-inforgraphic">Android update process</a>
+<br />
 <a href="http://opensignal.com/reports/fragmentation-2013/">Android fragmentation Chart</a>
