@@ -246,6 +246,10 @@ footer {
   width: 600px;
 }
 
+.follow-me {
+  padding-left: 85px;
+}
+
 @media screen and (max-width: 470px) {
 	.mobile-hide {
 		display: none !important;

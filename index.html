@@ -80,7 +80,10 @@ title: index
       </span>
       <br />
       <br />
-      <a href="https://twitter.com/intent/tweet?screen_name=jackhanford" class="twitter-mention-button" data-lang="en">Tweet to @jackhanford</a>
+      <div class="follow-me">
+        <div class="fb-follow" data-href="https://www.facebook.com/jackhanford" data-colorscheme="light" data-layout="button_count" data-show-faces="true"></div>
+        <a href="https://twitter.com/jackhanford" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow Jack Hanford</a>
+      </div>
       <br />
     </footer>
   </div>
@@ -95,10 +98,18 @@ ga('create', 'UA-45226320-1', 'jackhanford.com');
 ga('send', 'pageview');
 
 </script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=518876491538635&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/slide.js"></script>
 <script type="text/javascript" src="vendor/jquery-tipr/tipr/tipr.js"></script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </body>
 </html>
