@@ -250,6 +250,36 @@ footer {
   padding-left: 85px;
 }
 
+.talk-box {
+  
+}
+
+.talk-box .tab {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 1.1em;
+  margin: 5px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.slick-slide img {
+  height: 200px;
+  width:  250px;
+}
+
+.slick-slider {
+  width: 100% !important;
+  height: 200px;
+  margin-bottom: 0 !important;
+}
+
 @media screen and (max-width: 470px) {
 	.mobile-hide {
 		display: none !important;
