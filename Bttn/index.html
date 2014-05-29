@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buttons</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="bttn.css">
+
+<style type="text/css">
+  body {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .well {
+    width: 30%;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+
+  .bttn-splat {
+    margin-left: 5px;
+  }
+
+</style>
+<body>
+  <h2>Jack's buttons</h2>
+
+  <h5>Small</h5>
+  <button class="bttn bttn-small">Default</button>
+  <button class="bttn bttn-primary bttn-small">Primary</button>
+  <button class="bttn bttn-success bttn-small">Success</button>
+  <button class="bttn bttn-info bttn-small">Info</button>
+  <button class="bttn bttn-warning bttn-small">Warning</button>
+  <button class="bttn bttn-danger bttn-small">Danger</button>
+
+  <hr>
+
+
+  <h5>Normal</h5>
+  <button class="bttn">Default</button>
+  <button class="bttn bttn-primary">Primary</button>
+  <button class="bttn bttn-success">Success</button>
+  <button class="bttn bttn-info">Info</button>
+  <button class="bttn bttn-warning">Warning</button>
+  <button class="bttn bttn-danger">Danger</button>
+
+  <hr>
+
+  <h5>Large</h5>
+  <button class="bttn bttn-large">Default</button>
+  <button class="bttn bttn-primary bttn-large">Primary</button>
+  <button class="bttn bttn-success bttn-large">Success</button>
+  <button class="bttn bttn-info bttn-large">Info</button>
+  <button class="bttn bttn-warning bttn-large">Warning</button>
+  <button class="bttn bttn-danger bttn-large">Danger</button>
+
+  <hr>
+
+  <h5>Button splat</h5>
+  <button class="bttn bttn-splat">Default</button>
+  <button class="bttn bttn-primary bttn-splat">Default</button>
+  <button class="bttn bttn-success bttn-splat">Default</button>
+  <button class="bttn bttn-info bttn-splat">Default</button>
+  <button class="bttn bttn-warning bttn-splat">Default</button>
+  <button class="bttn bttn-danger bttn-splat">Default</button>
+
+  <hr>
+
+  <h5>Block buttons</h5>
+  <div class="well">
+    <button class="bttn bttn-success bttn-block">Block Button</button>
+    <button class="bttn bttn-primary bttn-block">Block Button</button>
+  </div>
+
+  <hr>
+
+  <h5>Anchors and buttons are both reset before styling for consistency.</h5>
+  <button class="bttn bttn-primary">Button</button>
+  <!-- <input type="button" class="bttn bttn-warning" value="Input button"> -->
+  <a href="javascript:void(0)" class="bttn bttn-danger reset-anchor">Anchor</a>
+
+  <hr>
+
+  <h5>Button disabled</h5>
+  <button class="bttn" disabled>Default</button>
+  <button class="bttn bttn-primary" disabled>Primary</button>
+  <button class="bttn bttn-success" disabled>Success</button>
+  <button class="bttn bttn-info" disabled>Info</button>
+  <button class="bttn bttn-warning" disabled>Warning</button>
+  <button class="bttn bttn-danger" disabled>Danger</button>
+
+  <hr>
+
+</body>
+</html>
