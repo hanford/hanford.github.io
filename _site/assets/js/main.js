@@ -3,10 +3,10 @@ $(document).ready(function() {
 
   $("#jbtn").click(function(e) {
   	e.preventDefault();
-    $(".about").fadeIn();
+    $(".about").show().addClass('animated fadeInUp');
     $('body').css('overflow', 'visible');
-    $(this).hide().slideUp("fast");
-    $(".toppadd").slideUp();
+    $(this).hide();
+    $(".toppadd").hide();
   });
 
   $('.resumetoggle').click(function() {
