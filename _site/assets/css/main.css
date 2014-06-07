@@ -284,6 +284,11 @@ footer {
   }
 
 	.polaroid-images a {
-    left: 10%;
+    clear: both
+    display: block;
+    margin: 20px auto;
+  }
+  .polaroid-images img {
+    max-width: 100%;
   }
 }
