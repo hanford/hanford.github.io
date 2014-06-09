@@ -85,14 +85,20 @@ h3 {
   color: rgba(0,0,0, 0.9);
 }
 
-.toppadd {
-	padding-top: 10%;
-}
-
 .introbox {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+
+.trans {
+  position: relative;
+  padding-top: 10%;
+  -webkit-transition: padding-top 0.75s;
+  transition: padding-top 0.75s;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .profilePic {
