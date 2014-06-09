@@ -13,6 +13,10 @@ html {
   transition:all 1s linear;
 }
 
+img {
+  max-width: 100%;
+}
+
 .clearfix {
 	clear: both;
 }
