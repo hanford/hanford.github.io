@@ -5,6 +5,12 @@ html {
   background-color: #E8E8F0;
   color: rgba(0,0,0, 0.7);
 	overflow-x: none;
+
+  -webkit-transition:all 1s linear;
+  -moz-transition:all 1s linear;
+  -ms-transition:all 1s linear;
+  -o-transition:all 1s linear;
+  transition:all 1s linear;
 }
 
 .clearfix {
@@ -95,10 +101,14 @@ h3 {
 .trans {
   position: relative;
   padding-top: 10%;
-  -webkit-transition: padding-top 0.75s;
-  transition: padding-top 0.75s;
   margin: 0 auto;
   text-align: center;
+}
+
+.animated-padding {
+  padding-top: 10px !important;
+  -webkit-transition: padding-top 1s;
+  transition: padding-top 1s;
 }
 
 .profilePic {

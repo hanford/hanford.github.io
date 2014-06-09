@@ -4,7 +4,7 @@ $(document).ready(function() {
   $("#jbtn").click(function(e) {
   	e.preventDefault();
     $(".about").show().addClass('animated fadeInUp');
-    $('.trans').css('padding-top', '0');
+    $('.trans').addClass('animated-padding');
     $('body').css('overflow', 'visible');
     $(this).hide();
     $(".toppadd").hide();
