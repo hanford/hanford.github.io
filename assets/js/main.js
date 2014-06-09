@@ -3,8 +3,8 @@ $(document).ready(function() {
 
   $("#jbtn").click(function(e) {
   	e.preventDefault();
-    $(".about").show().addClass('animated fadeInUp');
     $('.trans').addClass('animated-padding');
+    $(".about").fadeIn('fast');
     $('body').css('overflow', 'visible');
     $(this).hide();
     $(".toppadd").hide();
@@ -31,3 +31,17 @@ $(document).ready(function() {
   });
 
 });
+
+
+// Play with in the future ? 
+
+// $(window).scroll(function() {
+//   var scroll = $(window).scrollTop();
+//   var minscrollLength = 280;
+//   var maxscrollLength = 340;
+//   if (scroll >= minscrollLength && maxscrollLength >= scroll) {
+//     $('a').css('padding', '10px');
+//   }   else    {
+//     console.log('ew');
+//   }
+// });
