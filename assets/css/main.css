@@ -107,12 +107,11 @@ h3 {
   padding-top: 10%;
   margin: 0 auto;
   text-align: center;
+  will-change: transition;
 }
 
 .animated-padding {
   padding-top: 10px !important;
-
-  will-change: transition;
   -webkit-transition: padding-top 1s;
   transition: padding-top 1s;
 }
