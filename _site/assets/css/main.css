@@ -107,6 +107,7 @@ h3 {
   padding-top: 10%;
   margin: 0 auto;
   text-align: center;
+  will-change: transition;
 }
 
 .animated-padding {
@@ -285,7 +286,7 @@ footer {
 }
 
 .talk-box {
-  
+
 }
 
 .talk-box .tab {
@@ -301,6 +302,17 @@ footer {
 
 .left {
   float: left;
+}
+
+.abt-me {
+	text-indent: 5px;
+	text-align: justify;
+}
+
+strong {
+	text-align: justify;
+	top: 10px;
+	position: relative;
 }
 
 @media screen and (max-width: 470px) {

@@ -304,6 +304,17 @@ footer {
   float: left;
 }
 
+.abt-me {
+	text-indent: 5px;
+	text-align: justify;
+}
+
+strong {
+	text-align: justify;
+	top: 10px;
+	position: relative;
+}
+
 @media screen and (max-width: 470px) {
 	.mobile-hide {
 		display: none !important;
