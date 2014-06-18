@@ -112,8 +112,8 @@ h3 {
 
 .animated-padding {
   padding-top: 10px !important;
-  -webkit-transition: padding-top 0.5s;
-  transition: padding-top 0.5s;
+  -webkit-transition: padding-top 0.25s;
+  transition: padding-top 0.25s;
 }
 
 .profilePic {
