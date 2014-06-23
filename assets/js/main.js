@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$(document).scrollTop(0);
   $('.tip').tipr();
 
   $("#jbtn").click(function(e) {
@@ -33,7 +34,7 @@ $(document).ready(function() {
 });
 
 
-// Play with in the future ? 
+// Play with in the future ?
 
 // $(window).scroll(function() {
 //   var scroll = $(window).scrollTop();
