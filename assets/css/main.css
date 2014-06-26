@@ -95,6 +95,12 @@ h3 {
   color: rgba(0,0,0, 0.9);
 }
 
+@media (max-width: 768px) {
+	.title {
+		font-family: inherit;
+	}
+}
+
 .introbox {
 	margin-left: auto;
 	margin-right: auto;
