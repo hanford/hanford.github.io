@@ -6,6 +6,7 @@ html {
   color: rgba(0,0,0, 0.7);
 	overflow-x: none;
 
+	-webkit-font-smoothing: antialiased;
   -webkit-transition:all 1s linear;
   -moz-transition:all 1s linear;
   -ms-transition:all 1s linear;
@@ -93,6 +94,12 @@ h3 {
   font-family: 'Satisfy', cursive;
   font-size: 25px;
   color: rgba(0,0,0, 0.9);
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-family: inherit;
+	}
 }
 
 .introbox {
