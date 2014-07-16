@@ -32,14 +32,17 @@ $(document).ready(function() {
   });
 
   	setTimeout(function () {
+  	$('.picture-title').css('visibility', 'visible')
 		$('.picture-title').addClass('animated bounceInUp');
 	}, 200)
 
 	setTimeout(function () {
+		$('.buttonspace').css('visibility', 'visible')
 		$('.buttonspace').addClass('animated bounceInUp');
 	}, 300)
 
 	setTimeout(function () {
+		$('#jbtn').css('visibility', 'visible')
 		$('#jbtn').addClass('animated bounceInUp');
 	}, 400)
 
