@@ -31,6 +31,18 @@ $(document).ready(function() {
     return false;
   });
 
+  	setTimeout(function () {
+		$('.picture-title').addClass('animated bounceInUp');
+	}, 200)
+
+	setTimeout(function () {
+		$('.buttonspace').addClass('animated bounceInUp');
+	}, 300)
+
+	setTimeout(function () {
+		$('#jbtn').addClass('animated bounceInUp');
+	}, 400)
+
 });
 
 

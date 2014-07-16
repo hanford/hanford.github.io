@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Boredom"
+description: "An essay I am writing on my fascination with boredom, and why we should embrace it."
+category:
+tags: []
+---
+<h2>Boredom</h2>
+<p>Boredom is something that fascinates me. I recently watched a video talking about why humans become bored and it blew my mind. When humans are bored, we are simply unamused, uninterested, unimpressed or just not excited about whats going on around us. Although this feeling is often temporary it's still a very unique state of mind.</p>
+
+<p>A man named Arthur Schopenhauer once said "If life in itself possessed positive value and real content there would be no such thing as boredom". Does this mean that our existence isn't enough to fulfill us? It must, because boredom does exists. In a letter to his father Giacomo Leopardi said "Boredom is the most sublime of all human emotions because it expresses the fact that the human spirit, in a certain sense, is greater than the entire universe. Boredom is an expression of a profound despair at not finding anything that can satisfy the soul's boundless needs."</p>
+
+<p>We have found that when we are bored, our brain activity only drops around 5%. Regions of the brain responsible for recalling autobiographical memories, conceiving the thoughts of others and conjuring hypothetical situations.. have shown an increase while bored.</p>
+
+<p>I think we should embrace this emotion, because we are one of the only species experience it. One thing is certain, boredom isn't boring.</p>
