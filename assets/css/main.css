@@ -22,6 +22,10 @@ html {
 	visibility: hidden;
 }
 
+.bttn-deck {
+	visibility: hidden;
+}
+
 img {
   max-width: 100%;
 }
@@ -45,7 +49,6 @@ h3 {
 }
 
 .buttonspace {
-	visibility: hidden;
   margin-left: auto;
   margin-right: auto;
   height: 40px;

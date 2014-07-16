@@ -37,8 +37,8 @@ $(document).ready(function() {
 	}, 200)
 
 	setTimeout(function () {
-		$('.buttonspace').css('visibility', 'visible')
-		$('.buttonspace').addClass('animated bounceInUp');
+		$('.bttn-deck').css('visibility', 'visible')
+		$('.bttn-deck').addClass('animated bounceInUp');
 	}, 300)
 
 	setTimeout(function () {
