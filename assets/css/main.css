@@ -7,11 +7,11 @@ html {
 	overflow-x: none;
 
 	-webkit-font-smoothing: antialiased;
-  -webkit-transition:all 1s linear;
-  -moz-transition:all 1s linear;
-  -ms-transition:all 1s linear;
-  -o-transition:all 1s linear;
-  transition:all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
 }
 
 .picture-title {
@@ -329,7 +329,7 @@ footer {
 
 .abt-me {
 	text-indent: 5px;
-	text-align: justify;
+	text-align: left;
 }
 
 strong {
