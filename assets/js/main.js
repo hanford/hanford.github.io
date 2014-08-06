@@ -6,7 +6,6 @@ $(document).ready(function() {
   	e.preventDefault();
     $('.trans').addClass('animated-padding');
     $(".about").fadeIn('fast');
-    $('body').css('overflow', 'visible');
     $(this).hide();
     $(".toppadd").hide();
   });
@@ -33,17 +32,17 @@ $(document).ready(function() {
 
   	setTimeout(function () {
   	$('.picture-title').css('visibility', 'visible')
-		$('.picture-title').addClass('animated bounceInUp');
+		$('.picture-title').addClass('animated zoomIn');
 	}, 200)
 
 	setTimeout(function () {
 		$('.bttn-deck').css('visibility', 'visible')
-		$('.bttn-deck').addClass('animated bounceInUp');
+		$('.bttn-deck').addClass('animated zoomIn');
 	}, 300)
 
 	setTimeout(function () {
 		$('#jbtn').css('visibility', 'visible')
-		$('#jbtn').addClass('animated bounceInUp');
+		$('#jbtn').addClass('animated zoomIn');
 	}, 400)
 
 });
