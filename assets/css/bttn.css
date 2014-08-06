@@ -25,6 +25,7 @@ button,
   outline: none;
   cursor: pointer;
   font-weight: 600;
+  transition: .2s all ease;
 }
 
 .bttn:hover {

@@ -20,11 +20,7 @@ html {
 
 #jbtn {
 	visibility: hidden;
-  -webkit-transition: all .2s ease-in-out;
-  display: inline-block;
 }
-
-#jbtn:hover { -webkit-transform: scale(1.1); }
 
 .bttn-deck {
 	visibility: hidden;
@@ -98,6 +94,9 @@ h3 {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 500px;
+}
+
+.main-cont {
   padding: 5px 15px;
   border-radius: 4px;
   border: 1px solid #D2D2D2;
