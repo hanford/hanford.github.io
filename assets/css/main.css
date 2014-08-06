@@ -57,6 +57,12 @@ h3 {
   color: rgba(0,0,0, 0.7)
 }
 
+@media(max-width: 400px) {
+  .fa {
+    width: 8%;
+  }
+}
+
 .fa-border {
   border: solid 0.08em #D4D4D4;
 }
