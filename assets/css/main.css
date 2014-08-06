@@ -7,11 +7,6 @@ html {
 	overflow-x: none;
 
 	-webkit-font-smoothing: antialiased;
-  -webkit-transition: all 1s linear;
-  -moz-transition: all 1s linear;
-  -ms-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 1s linear;
 }
 
 .picture-title {
@@ -60,6 +55,10 @@ h3 {
 	text-decoration: none;
 	width: 10%;
   color: rgba(0,0,0, 0.7)
+}
+
+.fa-border {
+  border: solid 0.08em #D4D4D4;
 }
 
 .fa-facebook:hover {
