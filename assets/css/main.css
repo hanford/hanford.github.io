@@ -370,3 +370,14 @@ strong {
     max-width: 100%;
   }
 }
+
+.take-me-back:hover {
+  transition-timing-function: linear;
+  transition: .1s all;
+  -webkit-transform: scale(1.1);
+}
+
+.social-box {
+  display: inline-block;
+  margin: 0 auto;
+}
