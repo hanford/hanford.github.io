@@ -277,8 +277,7 @@ footer {
   line-height: 1.1;
   color: #333332;
   margin-bottom: 4px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 5px 15px;
 }
 
 .blogtitle:hover {
