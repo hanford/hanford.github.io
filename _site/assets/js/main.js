@@ -32,18 +32,18 @@ $(document).ready(function() {
 
   	setTimeout(function () {
   	$('.picture-title').css('visibility', 'visible')
-		$('.picture-title').addClass('animated zoomIn');
+		$('.picture-title').addClass('animated fadeIn');
 	}, 200)
 
 	setTimeout(function () {
 		$('.bttn-deck').css('visibility', 'visible')
-		$('.bttn-deck').addClass('animated zoomIn');
-	}, 300)
+		$('.bttn-deck').addClass('animated fadeIn');
+	}, 400)
 
 	setTimeout(function () {
 		$('#jbtn').css('visibility', 'visible')
-		$('#jbtn').addClass('animated zoomIn');
-	}, 400)
+		$('#jbtn').addClass('animated fadeIn');
+	}, 600)
 
 });
 
