@@ -30,7 +30,7 @@ $(document).ready(function() {
     return false;
   });
 
-  	setTimeout(function () {
+  setTimeout(function () {
   	$('.picture-title').css('visibility', 'visible')
 		$('.picture-title').addClass('animated bounceInUp');
 	}, 300)
