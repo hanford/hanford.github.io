@@ -32,18 +32,18 @@ $(document).ready(function() {
 
   setTimeout(function () {
   	$('.picture-title').css('visibility', 'visible')
-		$('.picture-title').addClass('animated bounceInUp');
+		$('.picture-title').addClass('animated bounceIn');
 	}, 300)
 
 	setTimeout(function () {
 		$('.bttn-deck').css('visibility', 'visible')
-		$('.bttn-deck').addClass('animated bounceInUp');
-	}, 600)
+		$('.bttn-deck').addClass('animated bounceIn');
+	}, 300)
 
 	setTimeout(function () {
 		$('#jbtn').css('visibility', 'visible')
-		$('#jbtn').addClass('animated bounceInUp');
-	}, 900)
+		$('#jbtn').addClass('animated bounceIn');
+	}, 300)
 
 });
 
