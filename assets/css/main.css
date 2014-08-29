@@ -5,6 +5,7 @@ html {
   background-color: #F1F1F1;
   color: rgba(0,0,0, 0.7);
 	overflow-x: none;
+  background-image: url(../../images/noise-2.png);
 
 	-webkit-font-smoothing: antialiased;
 }
