@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	$(document).scrollTop(0);
+  $(document).scrollTop(0);
   $('.tip').tipr();
 
   $("#jbtn").click(function(e) {
-  	e.preventDefault();
+    e.preventDefault();
     $('.trans').addClass('animated-padding');
     $(".about").fadeIn('fast');
     $(this).hide();
@@ -18,7 +18,7 @@ $(document).ready(function() {
     $(".fa-twitter").mouseenter();
     $(".fa-envelope").mouseenter();
     $('html, body').animate({
-      scrollTop: $( $(this).attr('href') ).offset().top
+      scrollTop: $($(this).attr('href')).offset().top
     }, 500);
     return false;
   });
@@ -30,20 +30,20 @@ $(document).ready(function() {
     return false;
   });
 
-  setTimeout(function () {
-  	$('.picture-title').css('visibility', 'visible')
-		$('.picture-title').addClass('animated bounceIn');
-	}, 300)
+  setTimeout(function() {
+    $('.picture-title').css('visibility', 'visible')
+    $('.picture-title').addClass('animated bounceIn');
+  }, 300)
 
-	setTimeout(function () {
-		$('.bttn-deck').css('visibility', 'visible')
-		$('.bttn-deck').addClass('animated bounceIn');
-	}, 300)
+  setTimeout(function() {
+    $('.bttn-deck').css('visibility', 'visible')
+    $('.bttn-deck').addClass('animated bounceIn');
+  }, 300)
 
-	setTimeout(function () {
-		$('#jbtn').css('visibility', 'visible')
-		$('#jbtn').addClass('animated bounceIn');
-	}, 300)
+  setTimeout(function() {
+    $('#jbtn').css('visibility', 'visible')
+    $('#jbtn').addClass('animated bounceIn');
+  }, 300)
 
 });
 
