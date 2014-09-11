@@ -2,7 +2,7 @@
 layout: post
 title: "Circumventing iPhone restore restrictions"
 description: "In this post, I describe how to circumvent apples restore check"
-category: 
+category:
 tags: []
 ---
 <h2 class="center">Circumvent iOS restore version check</h2>
