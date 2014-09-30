@@ -10,6 +10,8 @@
 }
 .center {
   text-align: center;
+  margin: 0 auto;
+  display: block;
 }
 .padding-top {
   padding-top: 15%;
