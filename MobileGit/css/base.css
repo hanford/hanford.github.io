@@ -4,6 +4,10 @@
   position: fixed;
   bottom: 0;
 }
+.pressimage-small {
+  max-width: 100%;
+  width: 500px;
+}
 .appstore-button {
   margin: 0 auto;
   display: block;
