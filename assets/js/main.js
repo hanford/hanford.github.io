@@ -45,6 +45,10 @@ $(document).ready(function() {
     $('#jbtn').addClass('animated fadeInUp');
   }, 500)
 
+  setTimeout(function() {
+    $('#jbtn').removeClass('animated fadeInUp');
+  }, 1500)
+
 });
 
 
