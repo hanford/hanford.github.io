@@ -1,0 +1,21 @@
+{
+  "name": "jackhanford.github.io",
+  "version": "1.0",
+  "homepage": "jackhanford.com",
+  "description": "personal website",
+  "authors": [
+    "jack hanford"
+  ],
+  "license": "yes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.2.0",
+    "Font-Awesome": "~4.2.0"
+  }
+}

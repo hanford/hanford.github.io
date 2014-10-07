@@ -32,21 +32,21 @@ $(document).ready(function() {
 
   setTimeout(function() {
     $('.picture-title').css('visibility', 'visible')
-    $('.picture-title').addClass('animated fadeInUp');
+    $('.picture-title').addClass('animated fadeInUpBig');
   }, 300)
 
   setTimeout(function() {
     $('.bttn-deck').css('visibility', 'visible')
-    $('.bttn-deck').addClass('animated fadeInUp');
+    $('.bttn-deck').addClass('animated fadeInUpBig');
   }, 400)
 
   setTimeout(function() {
     $('#jbtn').css('visibility', 'visible')
-    $('#jbtn').addClass('animated fadeInUp');
+    $('#jbtn').addClass('animated fadeInUpBig');
   }, 500)
 
   setTimeout(function() {
-    $('#jbtn').removeClass('animated fadeInUp');
+    $('#jbtn').removeClass('animated fadeInUpBig');
   }, 1500)
 
 });
