@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "animate.css": "~3.2.0",
-    "Font-Awesome": "~4.2.0"
+    "Font-Awesome": "~4.2.0",
+    "bootstrap": "~3.2.0"
   }
 }
