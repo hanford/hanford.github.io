@@ -295,8 +295,8 @@ strong {
 				padding-right: 20px;
 		}
 		.polaroid-images a {
-				clear: both display: block;
-				margin: 20px auto;
+				clear: both;
+				display: block;
 		}
 		.polaroid-images img {
 				max-width: 100%;
