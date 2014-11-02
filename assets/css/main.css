@@ -232,6 +232,7 @@ footer {
 		color: #333332;
 		margin-bottom: 4px;
 		padding: 5px 15px;
+		transition: all .2s;
 }
 .blogtitle:hover {
 		background-color: #EEEEF3;
