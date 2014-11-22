@@ -1,12 +1,16 @@
-html {
+body {
 		height: 100%;
 		width: 100%;
 		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: normal;
 		background-color: #F1F1F1;
 		color: rgba(0, 0, 0, 0.7);
 		overflow-x: none;
 		background-image: url(../../images/noise-2.png);
 		-webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
 }
 .picture-title {
 		visibility: hidden;
@@ -114,7 +118,6 @@ h3 {
 }
 .animated-padding {
 		padding-top: 10px !important;
-		-webkit-transition: padding-top 0.5s;
 		transition: padding-top 0.5s;
 }
 .profilePic {
@@ -196,11 +199,7 @@ footer {
 		padding: 10px 10px 25px;
 		text-align: center;
 		text-decoration: none;
-		-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-		-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 		box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-		-webkit-transition: all .15s linear;
-		-moz-transition: all .15s linear;
 		transition: all .15s linear;
 		z-index: 0;
 		position: relative;

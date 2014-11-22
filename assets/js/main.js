@@ -5,22 +5,13 @@ $(document).ready(function() {
   $("#jbtn").click(function(e) {
     e.preventDefault();
     $('.trans').addClass('animated-padding');
-    $(".about").fadeIn('fast');
-    $(this).hide();
+    $(".about").fadeIn('slow');
+    $(this).fadeOut('fast');
     $(".toppadd").hide();
   });
 
   $('.resumetoggle').click(function() {
     $('.resume').toggle();
-  });
-
-  $('.BringEmAll').click(function() {
-    $(".fa-twitter").mouseenter();
-    $(".fa-envelope").mouseenter();
-    $('html, body').animate({
-      scrollTop: $($(this).attr('href')).offset().top
-    }, 500);
-    return false;
   });
 
   $('.takemetop').click(function() {
