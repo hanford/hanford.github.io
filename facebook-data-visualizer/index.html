@@ -1,41 +1,73 @@
 <html>
+
 <head>
-	<title>Facebook Data Visualizer</title>
-	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="..//bower_components/ionicons/css/ionicons.css">
+  <title>Facebook Data Visualizer</title>
+  <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="../bower_components/animate.css/animate.min.css">
+
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="facebookD.js"></script>
 </head>
+
 <body>
-	<img src="../images/facebook.png" class="background blurred-img">
+  <img src="../images/facebook-background.png" class="background blurred-img animated fadeIn">
 
-	<div class="container">
-		<div class="title center med-text">facebook data visualizer</div>
-		<h5 class="center bottom-margin">See detailed information about your facebook usage.</h5>
-	</div>
-	<div class="white-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>Step 1 - Download your data</h3>
-					<p>1. To download your facebook data, click on this arrow <img class="gif" src="../images/caret.gif"> which can be found on the top right of any page, than click on "Settings".</p>
-					<p>2. Once you are on the settings page, click "Download a copy of your facebook data" and then on the following page click on "Start My Archive".</p>
-					<p>3. After Starting your Archive, the waiting game begins. Usually within an hour facebook will email you notifying you that your archive is ready to be downloaded.</p>
-					<h3>Step 2 - Grabbing the Application</h3>
-					<form method="get" action="facebook-data-parse.zip"><p>Method 1 (easiest) - Download a zipped version of the application <button class="inline" type="submit">Here</button></p></form>
-					<p>Method 2 - Head over to the <a href="http://github.com/hanford/facebook-data-parser">GitHub repo</a> and clone then clone it.</p>
-					<h3>Step 3 - Once you have the data and the parsing app</h3>
-					<p>1. If you downloaded the parsing app unzip it.</p>
-					<p>2. Drag the file you downloaded from facebook named facebook-YOURNAME.zip into the main directory of the parsing application.</p>
-					<p>3. Rename the facebook-YOURNAME.zip file to just facebook.zip</p>
-					<h3>Step 4 - Running the parser</h3>
-					<p>Method 1 (easiest) - Right click "run-all.sh" and open the file in Terminal</p>
-					<p>Method 2 - unzip the facebook.zip file, run "npm install", then "bower install", after that you'll need to run "python -m SimpleHTTPServer" and then open a browser and go to <a href="http://localhost:8000">localhost:8000</a></p>
-					<h3>That's it!</h3>
-					<p>From here you should have 8 interactive graphs using data that it totally unique to your facebook usuage!</p>
-				</div>
-			</div>
-		</div>
+  <div class="container animated bounceInDown">
+    <div class="title center med-text">facebook data visualizer</div>
+    <h5 class="center bottom-margin">See detailed information about your facebook usage.</h5>
+  </div>
+  <div class="white-bg animated bounceInUp">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="stepOne">
+            <h3 class="center">Step 1</h3>
+            <ol>
+              <li>First, head over to your facebook settings</li>
+              <div class="step-img-cont">
+                <img class="step-img" src="../images/facebookd-tut/step1/1.png">
+              </div>
+              <li>On the settings page, click "Download a copy of your facebook data"</li>
+              <div class="step-img-cont">
+                <img class="step-img" src="../images/facebookd-tut/step1/2.png">
+              </div>
+              <li>Then Click the green "Start my Archive" Button.</li>
+              <div class="step-img-cont">
+                <img class="step-img" src="../images/facebookd-tut/step1/3.png">
+              </div>
+            </ol>
+          </div>
+          <br />
+          <br />
+					<div class="stepTwo">
+          	<h3 class="center">Step 2</h3>
+						<ol>
+							<li>
+          			<form method="get" action="facebook-data-parse.zip">
+            			<p>Method 1 (easiest) - Download a zipped version of the application <button class="bttn" type="submit">Here</button></p>
+          			</form>
+							</li>
+							<li>
+          			<p>Method 2 - Head over to the <a href="http://github.com/hanford/facebook-data-parser">GitHub repo</a> and clone then clone it.</p>
+							</li>
+					</div>
+					<br />
+          <h3>Step 3 - Once you have the data and the parsing app</h3>
+          <p>1. If you downloaded the parsing app unzip it.</p>
+          <p>2. Drag the file you downloaded from facebook named facebook-YOURNAME.zip into the main directory of the parsing application.</p>
+          <p>3. Rename the facebook-YOURNAME.zip file to just facebook.zip</p>
+          <h3>Step 4 - Running the parser</h3>
+          <p>Method 1 (easiest) - Right click "run-all.sh" and open the file in Terminal</p>
+          <p>Method 2 - unzip the facebook.zip file, run "npm install", then "bower install", after that you'll need to run "python -m SimpleHTTPServer" and then open a browser and go to <a href="http://localhost:8000">localhost:8000</a>
+          </p>
+          <h3>That's it!</h3>
+          <p>From here you should have 8 interactive graphs using data that it totally unique to your facebook usuage!</p>
+        </div>
+      </div>
+    </div>
+</body>
 
-	</body>
-	</html>
+</html>
