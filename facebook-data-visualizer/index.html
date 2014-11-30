@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Facebook Data Visualizer</title>
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="..//bower_components/ionicons/css/ionicons.css">
+</head>
+<body>
+	<img src="../images/facebook.png" class="background blurred-img">
+
+	<div class="container">
+		<div class="title center med-text">facebook data visualizer</div>
+		<h5 class="center bottom-margin">See detailed information about your facebook usage.</h5>
+	</div>
+	<div class="white-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Step 1 - Download your data</h3>
+					<p>1. To download your facebook data, click on this arrow <img class="gif" src="../images/caret.gif"> which can be found on the top right of any page, than click on "Settings".</p>
+					<p>2. Once you are on the settings page, click "Download a copy of your facebook data" and then on the following page click on "Start My Archive".</p>
+					<p>3. After Starting your Archive, the waiting game begins. Usually within an hour facebook will email you notifying you that your archive is ready to be downloaded.</p>
+					<h3>Step 2 - Grabbing the Application</h3>
+					<form method="get" action="facebook-data-parse.zip"><p>Method 1 (easiest) - Download a zipped version of the application <button class="inline" type="submit">Here</button></p></form>
+					<p>Method 2 - Head over to the <a href="http://github.com/hanford/facebook-data-parser">GitHub repo</a> and clone then clone it.</p>
+					<h3>Step 3 - Once you have the data and the parsing app</h3>
+					<p>1. If you downloaded the parsing app unzip it.</p>
+					<p>2. Drag the file you downloaded from facebook named facebook-YOURNAME.zip into the main directory of the parsing application.</p>
+					<p>3. Rename the facebook-YOURNAME.zip file to just facebook.zip</p>
+					<h3>Step 4 - Running the parser</h3>
+					<p>Method 1 (easiest) - Right click "run-all.sh" and open the file in Terminal</p>
+					<p>Method 2 - unzip the facebook.zip file, run "npm install", then "bower install", after that you'll need to run "python -m SimpleHTTPServer" and then open a browser and go to <a href="http://localhost:8000">localhost:8000</a></p>
+					<h3>That's it!</h3>
+					<p>From here you should have 8 interactive graphs using data that it totally unique to your facebook usuage!</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	</html>

@@ -1,0 +1,58 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #012D62;
+}
+.center {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.title {
+	margin-top: 100px;
+	margin-bottom: 60px;
+	font-weight: 900;
+}
+.bottom-margin {
+	margin-bottom: 50px;
+}
+.background {
+	min-width: 100%;
+}
+.blurred-img {
+	position: absolute;
+	z-index: -100;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+.med-text {
+	font-size: 40px;
+}
+.row {
+	background: white;
+}
+.white-bg {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background: white;
+	width: 100%;
+	margin-top:10%;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	display: block;
+}
+.gif {
+	display: inline;
+	margin: 0 5px;
+	max-width: 100%;
+	vertical-align: middle;
+}
+.download-button {
+	display: inline-block;
+}
