@@ -6,10 +6,6 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="../bower_components/animate.css/animate.min.css">
-
-  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="facebookD.js"></script>
 </head>
 
 <body>
@@ -24,47 +20,41 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="stepOne">
-            <h3 class="center">Step 1</h3>
+            <h3>Step 1</h3>
             <ol>
               <li>First, head over to your facebook settings</li>
               <div class="step-img-cont">
-                <img class="step-img" src="../images/facebookd-tut/step1/1.png">
+                <img class="step-img" src="../images/facebookd-tut/1.png">
               </div>
               <li>On the settings page, click "Download a copy of your facebook data"</li>
               <div class="step-img-cont">
-                <img class="step-img" src="../images/facebookd-tut/step1/2.png">
+                <img class="step-img" src="../images/facebookd-tut/2.png">
               </div>
               <li>Then Click the green "Start my Archive" Button.</li>
               <div class="step-img-cont">
-                <img class="step-img" src="../images/facebookd-tut/step1/3.png">
+                <img class="step-img" src="../images/facebookd-tut/3.png">
               </div>
+							<li>
+								<form method="get" action="facebook-data-parse.zip">
+									<p>Then download the application <button class="bttn" type="submit">Here</button> or <a href="http://github.com/hanford/facebook-data-parser">clone it.</a></p>
+								</form>
+							</li>
             </ol>
           </div>
           <br />
-          <br />
 					<div class="stepTwo">
-          	<h3 class="center">Step 2</h3>
+          	<h3>Step 2</h3>
+						<small class="center">By now you should have downloaded both the application and your data from facebook</small>
 						<ol>
-							<li>
-          			<form method="get" action="facebook-data-parse.zip">
-            			<p>Method 1 (easiest) - Download a zipped version of the application <button class="bttn" type="submit">Here</button></p>
-          			</form>
-							</li>
-							<li>
-          			<p>Method 2 - Head over to the <a href="http://github.com/hanford/facebook-data-parser">GitHub repo</a> and clone then clone it.</p>
-							</li>
+          		<li>Unzip the application and then drag the the facebook-USERNAME.zip into the file you just unzipped. Rename the facebook-USERNAME.zip file to just "facebook.zip". The directory should look exactly the same as below.</li>
+							<div class="step-img-cont">
+								<img class="step-img" src="../images/facebookd-tut/4.png">
+							</div>
+						</ol>
 					</div>
-					<br />
-          <h3>Step 3 - Once you have the data and the parsing app</h3>
-          <p>1. If you downloaded the parsing app unzip it.</p>
-          <p>2. Drag the file you downloaded from facebook named facebook-YOURNAME.zip into the main directory of the parsing application.</p>
-          <p>3. Rename the facebook-YOURNAME.zip file to just facebook.zip</p>
-          <h3>Step 4 - Running the parser</h3>
-          <p>Method 1 (easiest) - Right click "run-all.sh" and open the file in Terminal</p>
-          <p>Method 2 - unzip the facebook.zip file, run "npm install", then "bower install", after that you'll need to run "python -m SimpleHTTPServer" and then open a browser and go to <a href="http://localhost:8000">localhost:8000</a>
-          </p>
+          <h3>Step 3</h3>
+          <p class="center">Lastly open up terminal and cd into the directory. If you didn't move it out of your downloads the command should be "cd Downloads/facebook-data-parse". Once you're in the correct directory, simply type "./run-all.sh"</p>
           <h3>That's it!</h3>
-          <p>From here you should have 8 interactive graphs using data that it totally unique to your facebook usuage!</p>
         </div>
       </div>
     </div>
