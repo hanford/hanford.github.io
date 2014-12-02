@@ -86,3 +86,10 @@ li {
 	border: 2px solid #6C83B6;
 	margin-top: 15px;
 }
+pre {
+	width: 100px;
+	display: inline;
+}
+.big-img {
+	max-width: 700px;
+}
