@@ -10,67 +10,79 @@
 
 <body>
   <img src="../images/facebook-background.png" class="background blurred-img animated fadeIn">
-  <a href="https://github.com/hanford/facebook-data-parser"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-  <div class="container animated bounceInDown">
-    <div class="title center med-text">facebook data visualizer</div>
-    <h5 class="center bottom-margin">See detailed information about your facebook usage.</h5>
-  </div>
-  <div class="white-bg animated bounceInUp">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="stepOne">
-            <h3>Step 1</h3>
-            <ol>
-              <li>First, head over to your facebook settings</li>
-              <div class="step-img-cont">
-                <img class="step-img" src="../images/facebookd-tut/1.png">
+  <a href="https://github.com/hanford/facebook-data-parser">
+    <img style="position: absolute; top: 0; right: 0; border: 0;"  src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/
+    forkme_right_darkblue_121621.png"></a>
+    <div class="container animated bounceInDown">
+      <div class="title center med-text">facebook data visualizer</div>
+      <h5 class="center bottom-margin">See detailed information about your facebook usage.</h5>
+    </div>
+          <div class="">
+        <ul class="fixed-nav">
+          <li><a href="#step1">Step 1</a></li>
+          <li><a href="#step2">Step 2</a></li>
+          <li><a href="#step3">Step 3</a></li>
+        </ul>
+      </div>
+    <div class="white-bg animated bounceInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="stepOne">
+              <a name="step1"></a>
+              <h3>Step 1</h3>
+              <ol>
+                <li>First, head over to your facebook settings</li>
+                <div class="step-img-cont">
+                  <img class="step-img" src="../images/facebookd-tut/1.png">
+                </div>
+                <br />
+                <li>On the settings page click "Download a copy of your facebook data"</li>
+                <div class="step-img-cont">
+                  <img class="step-img" src="../images/facebookd-tut/2.png">
+                </div>
+                <br />
+                <li>Then Click the green "Start my Archive" Button.</li>
+                <div class="step-img-cont">
+                  <img class="step-img" src="../images/facebookd-tut/3.png">
+                </div>
+                <li>
+                  <form method="get" action="facebook-data-parse.zip">
+                   <p>Then download the parser <button class="bttn" type="submit">Here</button> or <a href="http://github.com/hanford/facebook-data-parser">clone it.</a></p>
+                 </form>
+               </li>
+             </ol>
+           </div>
+           <br />
+           <div class="stepTwo">
+             <a name="step2"></a>
+             <h3>Step 2</h3>
+             <small class="center">By now you should have downloaded both the parser and your data from facebook</small>
+             <ol>
+              <li>Unzip the parser and then drag the the facebook-USERNAME.zip into the file you unzipped and Rename facebook-USERNAME.zip to <pre>facebook.zip</pre></li>
+              <div class="step-img-cont big-img">
+                <img class="step-img " src="../images/facebookd-tut/4.png">
               </div>
-              <br />
-              <li>On the settings page click "Download a copy of your facebook data"</li>
-              <div class="step-img-cont">
-                <img class="step-img" src="../images/facebookd-tut/2.png">
-              </div>
-              <br />
-              <li>Then Click the green "Start my Archive" Button.</li>
-              <div class="step-img-cont">
-                <img class="step-img" src="../images/facebookd-tut/3.png">
-              </div>
-              <li>
-                <form method="get" action="facebook-data-parse.zip">
-                 <p>Then download the parser <button class="bttn" type="submit">Here</button> or <a href="http://github.com/hanford/facebook-data-parser">clone it.</a></p>
-               </form>
-             </li>
-           </ol>
-         </div>
-         <br />
-         <div class="stepTwo">
-           <h3>Step 2</h3>
-           <small class="center">By now you should have downloaded both the parser and your data from facebook</small>
-           <ol>
-            <li>Unzip the parser and then drag the the facebook-USERNAME.zip into the file you unzipped and Rename facebook-USERNAME.zip to <pre>facebook.zip</pre></li>
+            </ol>
+            <br />
+            <br />
+          </div>
+          <a name="step3"></a> 
+          <h3 >Step 3</h3>
+          <ol>
+            <li>
+              Finally open up terminal and <pre>cd</pre> into the parser then run <pre>./run-all.sh</pre>
+            </li>
             <div class="step-img-cont big-img">
-              <img class="step-img " src="../images/facebookd-tut/4.png">
+              <img class="step-img " src="../images/facebookd-tut/5.png">
             </div>
           </ol>
           <br />
           <br />
+          <h3>That's it!</h3>
         </div>
-        <h3>Step 3</h3>
-        <ol>
-          <li>
-            Finally open up terminal and <pre>cd</pre> into the parser then run <pre>./run-all.sh</pre>
-          </li>
-          <div class="step-img-cont big-img">
-            <img class="step-img " src="../images/facebookd-tut/5.png">
-          </div>
-        </ol>
-        <br />
-        <br />
-        <h3>That's it!</h3>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 
-</html>
+  </html>

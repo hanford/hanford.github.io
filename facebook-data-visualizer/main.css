@@ -93,3 +93,10 @@ pre {
 .big-img {
 	max-width: 700px;
 }
+.fixed-nav {
+	position: fixed;
+	z-index: 100;
+	list-style: none;
+	color: #6C83B6;
+	top: 10%;
+}
