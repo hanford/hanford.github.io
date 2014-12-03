@@ -111,5 +111,9 @@ pre {
 	display: block;
 }
 .show-me-how {
-	margin: 150px auto;
+	margin: 75px auto 150px;
+}
+.intro {
+	padding-top: 30px;
+	font-size: 16px;
 }
