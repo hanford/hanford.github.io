@@ -117,3 +117,6 @@ pre {
 	padding-top: 30px;
 	font-size: 16px;
 }
+.slide-in-right {
+	display: none;
+}

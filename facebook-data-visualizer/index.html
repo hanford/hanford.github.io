@@ -6,6 +6,9 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="../bower_components/animate.css/animate.min.css">
+
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="animate.js"></script>
 </head>
 
 <body>
@@ -17,84 +20,82 @@
       <div class="title center med-text">facebook data visualizer</div>
       <h5 class="center bottom-margin">See detailed information about your facebook usage.</h5>
     </div>
-          <div class="">
-        <ul class="fixed-nav">
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#step1">Step 1</a></li>
-          <li><a href="#step2">Step 2</a></li>
-          <li><a href="#step3">Step 3</a></li>
-          <li><a href="mailto:help@jackhanford.com">Help</a></li>
-        </ul>
-      </div>
+    <ul class="fixed-nav">
+      <li class="slide-in-right"><a href="#intro">Intro</a></li>
+      <li class="slide-in-right"><a href="#step1">Step 1</a></li>
+      <li class="slide-in-right"><a href="#step2">Step 2</a></li>
+      <li class="slide-in-right"><a href="#step3">Step 3</a></li>
+      <li class="slide-in-right"><a href="mailto:help@jackhanford.com">Help</a></li>
+    </ul>
     <div class="white-bg animated bounceInUp">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-          <div class="intro">
-            <a name="intro"></a>
-            <h3>Introduction</h3>
-            <p class="skinny-para">This tool can generate 10 unique graphs based on your facebook usage. You're able to visualize your activty based on hour, weekday, month and year. It also performs a <a href="http://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a> on each message you have ever sent so you're able to determine which friends make you happiest along with the ones that make you saddest. You can visualize what point in your (facebook) life that you have been happiest.
-            <br />
-            <br />
-             Happiness and saddness are calculated by the mood of each message you have participated in. On top of those graphs, this tool also maps your 40 most used words and the top 40 people you have participated in messages with.</p>
-          </div>
-          <h4 class="show-me-how"><a class="center" href="#step1">Show me how!</a></h4>
-            <div class="stepOne">
-              <a name="step1"></a>
-              <h3>Step 1</h3>
-              <ol>
-                <li>First, head over to your facebook settings</li>
-                <div class="step-img-cont">
-                  <img class="step-img" src="../images/facebookd-tut/1.png">
-                </div>
+            <div class="intro">
+              <a name="intro"></a>
+              <h3>Introduction</h3>
+              <p class="skinny-para">This tool can generate 10 unique graphs based on your facebook usage. You're able to visualize your activty based on hour, weekday, month and year. It also performs a <a href="http://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a> on each message you have ever sent so you're able to determine which friends make you happiest along with the ones that make you saddest. You can visualize what point in your (facebook) life that you have been happiest.
                 <br />
-                <li>On the settings page click "Download a copy of your facebook data"</li>
-                <div class="step-img-cont">
-                  <img class="step-img" src="../images/facebookd-tut/2.png">
-                </div>
                 <br />
-                <li>Then Click the green "Start my Archive" Button.</li>
-                <div class="step-img-cont">
-                  <img class="step-img" src="../images/facebookd-tut/3.png">
+                Happiness and saddness are calculated by the mood of each message you have participated in. On top of those graphs, this tool also maps your 40 most used words and the top 40 people you have participated in messages with.</p>
+              </div>
+              <h4 class="show-me-how"><a class="center" href="#step1">Show me how!</a></h4>
+              <div class="stepOne">
+                <a name="step1"></a>
+                <h3>Step 1</h3>
+                <ol>
+                  <li>First, head over to your facebook settings</li>
+                  <div class="step-img-cont">
+                    <img class="step-img" src="../images/facebookd-tut/1.png">
+                  </div>
+                  <br />
+                  <li>On the settings page click "Download a copy of your facebook data"</li>
+                  <div class="step-img-cont">
+                    <img class="step-img" src="../images/facebookd-tut/2.png">
+                  </div>
+                  <br />
+                  <li>Then Click the green "Start my Archive" Button.</li>
+                  <div class="step-img-cont">
+                    <img class="step-img" src="../images/facebookd-tut/3.png">
+                  </div>
+                  <li>
+                    <form method="get" action="facebook-data-parse.zip">
+                     <p>Then download the parser <button class="bttn" type="submit">Here</button> or <a href="http://github.com/hanford/facebook-data-parser">clone it.</a></p>
+                   </form>
+                 </li>
+               </ol>
+             </div>
+             <br />
+             <div class="stepTwo">
+               <a name="step2"></a>
+               <h3>Step 2</h3>
+               <small class="center">By now you should have downloaded both the parser and your data from facebook</small>
+               <ol>
+                <li>Unzip the parser and then drag the the facebook-USERNAME.zip into the file you unzipped and Rename facebook-USERNAME.zip to <pre>facebook.zip</pre></li>
+                <div class="step-img-cont big-img">
+                  <img class="step-img " src="../images/facebookd-tut/4.png">
                 </div>
-                <li>
-                  <form method="get" action="facebook-data-parse.zip">
-                   <p>Then download the parser <button class="bttn" type="submit">Here</button> or <a href="http://github.com/hanford/facebook-data-parser">clone it.</a></p>
-                 </form>
-               </li>
-             </ol>
-           </div>
-           <br />
-           <div class="stepTwo">
-             <a name="step2"></a>
-             <h3>Step 2</h3>
-             <small class="center">By now you should have downloaded both the parser and your data from facebook</small>
-             <ol>
-              <li>Unzip the parser and then drag the the facebook-USERNAME.zip into the file you unzipped and Rename facebook-USERNAME.zip to <pre>facebook.zip</pre></li>
+              </ol>
+              <br />
+              <br />
+            </div>
+            <a name="step3"></a> 
+            <h3 >Step 3</h3>
+            <ol>
+              <li>
+                Finally open up terminal and <pre>cd</pre> into the parser then run <pre>./run-all.sh</pre>
+              </li>
               <div class="step-img-cont big-img">
-                <img class="step-img " src="../images/facebookd-tut/4.png">
+                <img class="step-img " src="../images/facebookd-tut/5.png">
               </div>
             </ol>
             <br />
             <br />
+            <h3>That's it!</h3>
+            <p class="skinny-para center">Be patient, sometimes chrome will ask if the page has stopped responding, simply click "wait".<br /><br />You can also send any bug reports to <a href="mailto:help@jackhanford.com">Jack Hanford</a><br /><br />Like it? Show me some love on github, it's open source so you can send a pull request to improve it.</p>
           </div>
-          <a name="step3"></a> 
-          <h3 >Step 3</h3>
-          <ol>
-            <li>
-              Finally open up terminal and <pre>cd</pre> into the parser then run <pre>./run-all.sh</pre>
-            </li>
-            <div class="step-img-cont big-img">
-              <img class="step-img " src="../images/facebookd-tut/5.png">
-            </div>
-          </ol>
-          <br />
-          <br />
-          <h3>That's it!</h3>
-          <p class="skinny-para center">Be patient, sometimes chrome will ask if the page has stopped responding, simply click "wait".<br /><br />You can also send any bug reports to <a href="mailto:help@jackhanford.com">Jack Hanford</a><br /><br />Like it? Show me some love on github, it's open source so you can send a pull request to improve it.</p>
         </div>
       </div>
-    </div>
-  </body>
+    </body>
 
-  </html>
+    </html>
