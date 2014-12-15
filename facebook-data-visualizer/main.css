@@ -120,3 +120,7 @@ pre {
 .slide-in-right {
 	display: none;
 }
+body > a {
+	z-index: 200;
+}
+}
