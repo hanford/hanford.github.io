@@ -10,27 +10,105 @@ title: Portfolio
   <div class="container">
     <h3 class="clearfix">Previous Projects</h3>
     <div class="polaroid-images">
-      <a href="http://joinhomebase.com" title="Homebase">
-        <img src="../images/homebase.png" alt="Homebase" title="Homebase" />
-      </a>
-      <a href="http://refresh.io" title="Refresh.io">
-        <img src="../images/refresh.png" alt="Refresh" title="Refresh" />
-      </a>
-      <a href="http://techcrunch.com/2012/09/26/after-2-months-of-squatting-at-aol-eric-simons-launches-claco-the-github-for-teachers/" title="Claco">
-        <img src="../images/claco.png" alt="../Claco.png" title="claco" />
-      </a>
-      <a href="http://paloaltorooster.com/" title="Palo Alto Rooster">
-        <img src="../images/PaloRooster.png" title="Palo Alto Rooster" />
-      </a>
-    </div>
-    <div class="clearfix">
-      <p>Only showing a few projects here, I have other work on my github.</p>
-      <p>
-        Want to take a look at my resume? You can take a look at it <a id="bottom" href="#bottom" class="resumetoggle">here</a> or download it <a href="../files/JackHanford_Resume.pdf">here.</a>
-      </p>
-      <embed id="#bottom" class="resume" src="../files/JackHanford_Resume.pdf" width="90%" height="100%">
-    </div>
-    {% include footer.html %} {% include scripts.html %}
+
+      <!-- Homebase -->
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+          <a href="http://joinhomebase.com">
+              <img src="../images/homebase.png" alt="Homebase" title="Homebase" />
+              <span class="polaroid-title">Homebase</span>
+            </a>
+          </div>
+          <div class="back">
+            <a href="http://joinhomebase.com">
+              <span class="back-title">Homebase</span>
+              <br />
+              <span class="project-desc">
+                Easy-to-use software designed to reduce the time spent scheduling, recording and
+                communicating with hourly employees. Increase retention, improve productivity and create happier employees.
+             </span>
+             <br />
+           </a>
+         </div>
+       </div>
+     </div>
+
+      <!-- Refresh -->
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <a href="http://refresh.io">
+              <img src="../images/refresh.png" alt="Refresh" title="Refresh" />
+              <span class="polaroid-title">Refresh.io</span>
+            </a>
+          </div>
+          <div class="back">
+            <a href="http://refresh.io">
+              <span class="back-title">Refresh.io</span>
+              <br />
+              <span class="project-desc">
+               Instant insights on people you are about interact with. 
+             </span>
+             <br />
+           </a>
+         </div>
+       </div>
+     </div>
+
+      <!-- Claco -->
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <a href="http://techcrunch.com/2012/09/26/after-2-months-of-squatting-at-aol-eric-simons-launches-claco-the-github-for-teachers/">
+              <img src="../images/claco.png" alt="../Claco.png" title="claco" />
+              <span class="polaroid-title">Claco</span>
+            </a>
+          </div>
+          <div class="back">
+            <a href="http://techcrunch.com/2012/09/26/after-2-months-of-squatting-at-aol-eric-simons-launches-claco-the-github-for-teachers/">
+              <span class="back-title">Claco</span>
+              <br />
+              <span class="project-desc">
+               GitHub for teacher curriculumn.
+             </span>
+             <br />
+           </a>
+         </div>
+       </div>
+     </div>
+
+      <!-- Rooster -->
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <a href="http://paloaltorooster.com/" title="Palo Alto Rooster">
+              <img src="../images/PaloRooster.png" title="Palo Alto Rooster" />
+              <span class="polaroid-title">Rooster</span>
+            </a>
+          </div>
+          <div class="back">
+            <a href="http://paloaltorooster.com/" title="Palo Alto Rooster">
+              <span class="back-title">Rooster</span>
+              <br />
+              <span class="project-desc">
+               A platform for neighbors to help eachother free of charge.
+             </span>
+             <br />
+           </a>
+         </div>
+       </div>
+     </div>
+
+  </div>
+  <div class="clearfix center">
+    <p>Only showing a few projects here, I have other work on my github.</p>
+    <p>
+      Want to take a look at my resume? You can take a look at it <a id="bottom" href="#bottom" class="resumetoggle">here</a> or download it <a href="../files/JackHanford_Resume.pdf">here.</a>
+    </p>
+    <embed id="#bottom" class="resume" src="../files/JackHanford_Resume.pdf" width="90%" height="100%">
+  </div>
+  {% include footer.html %} {% include scripts.html %}
   </div>
 </body>
 

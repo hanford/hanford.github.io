@@ -186,13 +186,75 @@ footer {
 .mobile-hide {
 		display: inherit;
 }
+
+
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.3s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+
+
+.polaroid-images .front a {
+	text-align: center;
+}
+
+.polaroid-images .back a {
+	text-align: center;
+}
+
+
 .polaroid-images a {
 		background: white;
 		display: inline;
 		float: left;
-		margin: 0 15px 30px;
+		color: rgba(0, 0, 0, 0.70);
+		margin: 0 15px;
+		height: 230px;
+		max-width: 270px;
 		padding: 10px 10px 25px;
-		text-align: center;
 		text-decoration: none;
 		box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 		transition: all .15s linear;
@@ -202,7 +264,6 @@ footer {
 .polaroid-images a:after {
 		color: #333;
 		font-size: 20px;
-		content: attr(title);
 		position: relative;
 		top: 15px;
 }
@@ -211,6 +272,22 @@ footer {
 		border: 1px dotted #BBBAC3;
 		width: 250px;
 		height: 200px;
+}
+.polaroid-images .polaroid-title {
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+.polaroid-images a .project-desc {
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+.polaroid-images .back a span.back-title {
+	text-align: center !important;
+	font-weight: 600;
+	font-size: 18px;
 }
 .resume {
 		display: none;
