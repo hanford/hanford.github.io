@@ -21,10 +21,10 @@ tags: []
 
 <p>What Google did today by putting their camera application on the play store will also help the fragmentation problem. If there is a bug in a application Google can quickly fix it and then push it to the play store without having carriers involved at all. What this also does is leaves room for the teams who work on google applications to release major product updates without them having to be binded to an android OS update.</p>
 
-<h4>TL:dr</h4>
+<h4>tl;dr</h4>
 <p>Android Apps on the play store bypass a cumbersome update process also making room for major product releases not necessarily being binded to major OS releases.</p>
 
 <h4>Relevant Links</h4>
-<a href="http://www.androidcentral.com/htc-details-android-oem-update-process-fancy-inforgraphic">Android update process</a>
+<a href="http://www.androidcentral.com/htc-details-android-oem-update-process-fancy-inforgraphic" style="text-align:center;">Android update process</a>
 <br />
-<a href="http://opensignal.com/reports/fragmentation-2013/">Android fragmentation Chart</a>
+<a href="http://opensignal.com/reports/fragmentation-2013/" style="text-align:center;">Android fragmentation Chart</a>
