@@ -22,7 +22,7 @@ title: index
   <link rel="icon" type="image/png" href="images/me.jpg">
 </head>
 
-<body>
+<body ng-app="website">
   {% include about-me.html %}
   <div class="about none">
     <div class="container main-cont">
@@ -41,6 +41,7 @@ title: index
       </div>
       {% endfor %}
       <br />
+      <commit-list></commit-list>
       <div class="divider-div"></div>
       <h3>Hobbies</h3>
       <strong>Biking</strong>
@@ -103,6 +104,8 @@ title: index
   </div>
   <div class="bottompad"></div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="assets/js/app.js"></script>
   <script>
     document.write("<script type='text/javascript' src='assets/js/main.js?v=" + Date.now() + "'><\/script>");
   </script>

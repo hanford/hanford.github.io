@@ -39,7 +39,6 @@ $(document).ready(function() {
   setTimeout(function() {
     $('#jbtn').removeClass('animated fadeInUpBig');
   }, 1500)
-
 });
 
 
