@@ -22,10 +22,9 @@ angular.module('website', [])
           instance.name = evt.actor.login;
           instance.avatar = evt.actor.avatar_url;
           events.push(instance);
-          debugger
         }
 
-        scope.events = events;
+        scope.events = events.reverse();
         console.log(events);
 
       });
