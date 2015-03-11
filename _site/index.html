@@ -17,10 +17,11 @@
   <!-- <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" type="text/css" href="vendor/jquery-tipr/tipr/tipr.css">
   <link rel="icon" type="image/png" href="images/me.jpg">
+  <script src="bower_components/angular/angular.min.js"></script>
 </head>
 
-<body ng-app="website">
-  <div class="trans">
+<body ng-app="website" ng-controller="MainCtrl" ng-cloak>
+  <div class="trans" ng-class="{true: 'animated-padding'}[about]">
 <div class="picture-title">
   <img id="top" src="images/me.jpg" class="ProfilePic">
   <h2 class="title">Jack <b>Hanford</b></h2>
@@ -37,11 +38,11 @@
     <a href="/Playground/" class="fa fa-flask tip" data-tip="Playground"></a>
     <br />
     <br />
-    <button id="jbtn" class="bttn bttn-primary">More about me</button>
+    <button ng-click="showAbout($event)" ng-show="!about" class="bttn bttn-primary">More about me</button>
   </div>
 </div>
 
-  <div class="about none">
+  <div class="about" ng-show="about" ng-class="{true: 'animated fadeIn'}[about]">
     <div class="container main-cont">
       <h3>About Me</h3>
       <p class="abt-me">
@@ -88,7 +89,7 @@
       </div>
       
       <br />
-      <commit-list></commit-list>
+      <commit-list ng-show="events"></commit-list>
       <div class="divider-div"></div>
       <h3>Hobbies</h3>
       <strong>Biking</strong>
@@ -151,7 +152,6 @@
   </div>
   <div class="bottompad"></div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/angular/angular.min.js"></script>
   <script src="assets/js/app.js"></script>
   <script>
     document.write("<script type='text/javascript' src='assets/js/main.js?v=" + Date.now() + "'><\/script>");

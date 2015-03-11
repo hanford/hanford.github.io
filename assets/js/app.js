@@ -1,5 +1,21 @@
 angular.module('website', [])
 
+.controller('MainCtrl', ['$scope', function($scope) {
+  $scope.about = false;
+  $(document).scrollTop(0);
+  $('.tip').tipr();
+
+  $scope.showAbout = function($event) {
+    $event.preventDefault();
+    $scope.about = true;
+
+    $(this).fadeOut('fast');
+
+    $(".toppadd").hide();
+  }
+
+}])
+
 .directive('commitList', ['$http', function($http) {
   return {
     templateUrl: './assets/js/templates/commit-list.html',

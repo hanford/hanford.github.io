@@ -1,19 +1,4 @@
 $(document).ready(function() {
-  $(document).scrollTop(0);
-  $('.tip').tipr();
-
-  $("#jbtn").click(function(e) {
-    e.preventDefault();
-    $('.trans').addClass('animated-padding');
-    $(".about").fadeIn('slow');
-    $(this).fadeOut('fast');
-    $(".toppadd").hide();
-  });
-
-  $('.resumetoggle').click(function() {
-    $('.resume').toggle();
-  });
-
   $('.takemetop').click(function() {
     $('html, body').animate({
       scrollTop: $($(this).attr('href')).offset().top
@@ -32,25 +17,11 @@ $(document).ready(function() {
   }, 400)
 
   setTimeout(function() {
-    $('#jbtn').css('visibility', 'visible')
-    $('#jbtn').addClass('animated fadeInUpBig');
+    $('.bttn-primary').css('visibility', 'visible')
+    $('.bttn-primary').addClass('animated fadeInUpBig');
   }, 500)
 
   setTimeout(function() {
-    $('#jbtn').removeClass('animated fadeInUpBig');
+    $('.bttn-primary').removeClass('animated fadeInUpBig');
   }, 1500)
 });
-
-
-// Play with in the future ?
-
-// $(window).scroll(function() {
-//   var scroll = $(window).scrollTop();
-//   var minscrollLength = 280;
-//   var maxscrollLength = 340;
-//   if (scroll >= minscrollLength && maxscrollLength >= scroll) {
-//     $('a').css('padding', '10px');
-//   }   else    {
-//     console.log('ew');
-//   }
-// });

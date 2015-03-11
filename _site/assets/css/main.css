@@ -114,6 +114,7 @@ h3 {
 .animated-padding {
 	padding-top: 10px !important;
 	transition: padding-top 0.5s;
+	z-index: 5000;
 }
 .profilePic {
 	height: 160px;
