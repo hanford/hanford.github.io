@@ -17,8 +17,8 @@ $(document).ready(function() {
   }, 400)
 
   setTimeout(function() {
-    $('.bttn-primary').css('visibility', 'visible')
-    $('.bttn-primary').addClass('animated fadeInUpBig');
+    $('.welcome-bttn').css('visibility', 'visible')
+    $('.welcome-bttn').addClass('animated fadeInUpBig');
   }, 500)
 
   setTimeout(function() {
