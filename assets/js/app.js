@@ -25,19 +25,19 @@ angular.module('website', [])
         var events = [];
 
         for (var i = 5 - 1; i >= 0; i--) {
-          var instance = {};
+          var action = {};
           var evt = response[i];
 
           if (evt.type.indexOf("Event") > -1) {
             var eType = evt.type.substring(0, evt.type.indexOf("Event"));
-            instance.type = eType.replace(/([a-z](?=[A-Z]))/g, '$1 ');
+            action.type = eType.replace(/([a-z](?=[A-Z]))/g, '$1 ');
           }
 
-          instance.date = evt.created_at;
-          instance.repo = evt.repo.name;
-          instance.name = evt.actor.login;
-          instance.avatar = evt.actor.avatar_url;
-          events.push(instance);
+          action.date = evt.created_at;
+          action.repo = evt.repo.name;
+          action.name = evt.actor.login;
+          action.avatar = evt.actor.avatar_url;
+          events.push(action);
         }
 
         scope.events = events.reverse();
