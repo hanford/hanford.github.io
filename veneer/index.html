@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <title>Veneer</title>
+  <meta property="og:title" content="Veneer"/>
+  <meta property="og:type" content="article"/>  
+
+  <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="../bower_components/animate.css/animate.min.css">
+
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="animate.js"></script>
+</head>
+
+<body>
+  <div class="sidebar animated fadeIn blur">
+    <div class="block">
+      <div class="line">
+        <line class="green"></line>
+        <line class="white"></line>
+      </div>
+      <div class="line">
+        <line class="blue"></line>
+        <line class="red "></line>
+      </div>
+      <div class="line">
+        <line class="blue small-color"></line>
+        <line class="red small-color"></line>
+      </div>
+      <div class="line">
+        <line class="blue"></line>
+        <line class="red"></line>
+      </div>
+      <line class="white"></line>
+    </div>
+    <!-- line 2 -->
+    <div class="block">
+      <div class="line">
+        <line class="green super-small"></line>
+        <line class="white"></line>
+      </div>
+      <div class="line">
+        <line class="blue small-color"></line>
+        <line class="red small-color"></line>
+      </div>
+      <div class="line">
+        <line class="blue"></line>
+        <line class="red"></line>
+      </div>
+      <div class="line">
+        <line class="blue small-color"></line>
+        <line class="red small-color"></line>
+      </div>
+      <line class="white"></line>
+    </div>
+    <!-- line 3 -->
+    <div class="block">
+      <div class="line">
+        <line class="green"></line>
+        <line class="white"></line>
+      </div>
+      <div class="line">
+        <line class="blue"></line>
+        <line class="red"></line>
+      </div>
+      <div class="line">
+        <line class="blue small-color"></line>
+        <line class="red small-color"></line>
+      </div>
+      <line class="white"></line>
+    </div>
+  </div>
+  <script>
+  var time = 1.5;
+  [].forEach.call(document.querySelectorAll('line'), function(line) {
+    line.style.webkitAnimation = 'lineIn 0.1s both';
+    line.style.webkitAnimationDelay = (time) + 's';
+    time += 0.075;
+  });
+  </script>
+  <a href="https://github.com/hanford/veneer"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+  <div class="container animated bounceInDown">
+    <div class="title center">Veneer</div>
+    <h5 class="center bottom-margin">A chrome extension that allows you to modify the CSS on any website</h5>
+    <br />
+    </div>  
+    <div class="row animated zoomIn" style="-webkit-animation-delay: 0.5s; animation-delay: 0.5s">
+      <h4 class="center col-md-12">Example 1</h4>
+    </div>
+    <div class="box col-md-6 animated fadeInLeft" style="-webkit-animation-delay: 0.4s; animation-delay: 0.4s">
+      <h6 class="center">Before</h6>
+      <img src="old.png" class="old">
+    </div>
+    <!-- <i class="fa fa-long-arrow-right"></i> -->
+    <div class="box col-md-6 animated fadeInRight" style="-webkit-animation-delay: 0.8s; animation-delay: 0.8s">
+      <h6 class="center">After</h6>
+      <img src="veneered.png" class="old">
+    </div>
+  </div>
+
+<!--     <ul class="fixed-nav">
+      <li class="slide-in-right"><a href="#intro">Intro</a></li>
+      <li class="slide-in-right"><a href="#step1">Step 1</a></li>
+      <li class="slide-in-right"><a href="#step2">Step 2</a></li>
+      <li class="slide-in-right"><a href="#step3">Step 3</a></li>
+      <li class="slide-in-right"><a href="#example">Example</a></li>
+      <li class="slide-in-right"><a href="mailto:help@jackhanford.com">Help</a></li>
+    </ul> -->
+  </body>
+
+  </html>
