@@ -31,6 +31,6 @@ $(document).scroll(function(e) {
   
 });
 
-$(document).on("ready", function() {
-  runFadeIn("slide-in-right", "animated fadeInUp");
-});
+// $(document).on("ready", function() {
+//   runFadeIn("slide-in-right", "animated fadeInUp");
+// });
