@@ -87,12 +87,6 @@ line {
 	transition: all 1	s ease;
 }
 
-/*@media(max-width: 768px) {*/
-	.blur {
-		/*-webkit-filter: blur(10px);*/
-	}
-/*}*/
-
 .old {
   max-width: 90%;
   border: 3px solid rgb(238, 238, 238);
