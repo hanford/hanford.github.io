@@ -112,6 +112,24 @@ line {
   to { -webkit-transform: scaleX(1); }
 }
 
+.download-button {
+  padding: 10px 16px;
+  background-color: rgba(255,255,255,.7);
+  border-radius: 6px;
+  border: none;
+  text-shadow: none;
+  color: #555;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.download-button:active,
+.download-button:hover{
+  color: #555;
+  text-decoration: none;
+  background-color: rgba(255,255,255,.5);
+}
 
 /* 
 	transform: scale(4);
