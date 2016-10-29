@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'brandon';
+  src: url(./assets/brandon.woff)
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'brandon', sans-serif;
+}

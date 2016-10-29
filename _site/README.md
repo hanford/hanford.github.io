@@ -1,1 +1,0 @@
-My personal website. http://www.jackhanford.com

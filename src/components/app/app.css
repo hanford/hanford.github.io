@@ -1,0 +1,23 @@
+.app {
+  padding-top: 6rem;
+  font-size: 1.6rem;
+  max-width: 76rem;
+  margin: 0 auto;
+  color: rgba(0,0,0,.9);
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 600px) {
+  .top-section {
+    flex-direction: column;
+  }
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+}
