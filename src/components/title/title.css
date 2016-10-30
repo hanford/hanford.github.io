@@ -5,3 +5,7 @@
   text-transform: uppercase;
   letter-spacing: 0.07em;
 }
+
+.noMargin {
+  margin-bottom: 0;
+}

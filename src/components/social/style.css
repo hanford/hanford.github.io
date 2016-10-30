@@ -1,0 +1,13 @@
+.styleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.icon {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  color: black;
+}

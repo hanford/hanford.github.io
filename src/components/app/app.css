@@ -1,5 +1,10 @@
+.body {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
 .app {
-  padding-top: 6rem;
   font-size: 1.6rem;
   max-width: 76rem;
   margin: 0 auto;
