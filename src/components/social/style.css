@@ -4,10 +4,13 @@
   justify-content: space-between;
   width: 100%;
   padding-top: 2rem;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 2rem;
 }
 
 .icon {
   font-size: 3rem;
   margin: 0 0.5rem;
   color: black;
+  display: inline-block;
 }

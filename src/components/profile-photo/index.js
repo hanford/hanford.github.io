@@ -25,15 +25,14 @@ class ProfilePhoto extends Component {
 
     return (
       <Motion style={{
-        scale: spring(imgLoaded ? 1 : 0.6),
         opacity: spring(imgLoaded ? 1 : 0.5)
       }}>
-        {({ scale, slideDown, opacity }) => {
+        {({ opacity }) => {
           return (
             <img src={me}
               className='profile-photo'
               alt='jack hanford'
-              style={{ transform: `scale(${scale})`, opacity }}
+              style={{ opacity }}
             />
           )
         }}

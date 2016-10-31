@@ -1,7 +1,10 @@
 import React from 'react'
+import { Motion, spring } from 'react-motion'
 
 import Title from '../title'
 import Divider from '../divider'
+import links from './social.json'
+import Stagger from '../stagger'
 import './style.css'
 
 export default () => {
@@ -10,28 +13,28 @@ export default () => {
       <div className='styleRow'>
         <Title content='Where to find me' noMargin />
         <div>
-          <a href='https://twitter.com/jackhanford' target='_blank' className='icon'>
-            <i className='ion-social-twitter-outline'></i>
-          </a>
-          <i className='icon ion-social-snapchat-outline'></i>
-          <a href='https://www.linkedin.com/in/jack-hanford-98352761' target='_blank' className='icon'>
-            <i className='ion-social-linkedin-outline'></i>
-          </a>
-          <a href='https://github.com/hanford' target='_blank' className='icon'>
-            <i className='ion-social-github-outline'></i>
-          </a>
-          <a href='https://www.instagram.com/jackhanford/' target='_blank' className='icon'>
-            <i className='ion-social-instagram-outline'></i>
-          </a>
-          <a href='https://facebook.com/jackhanford' target='_blank' className='icon'>
-            <i className='ion-social-facebook-outline'></i>
-          </a>
-          <a href='mailto:hello@jackhanford.com' target='_blank'>
-            <i className='icon ion-ios-email-outline'></i>
-          </a>
+          {
+            links
+              .map((data, index) => {
+                return (
+                  <Stagger key={index} initial={0} value={1} period={index * 150}>
+                    {delayed =>
+                      <Motion style={{scaleIn: spring(delayed), bumpDown: spring(delayed ? 0 : -100)}}>
+                        {val =>
+                          <a href={data.link} target='_blank' className='icon' key={index} style={{
+                            transform: `scale(${val.scaleIn}) translateY(${val.bumpDown}px)`
+                          }}>
+                            <i className={data.icon}></i>
+                          </a>
+                        }
+                      </Motion>
+                    }
+                  </Stagger>
+                )
+              })
+          }
         </div>
       </div>
-      <Divider />
     </div>
   )
 }
