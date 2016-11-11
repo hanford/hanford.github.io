@@ -4,7 +4,7 @@ import ProfilePhoto from '../profile-photo'
 import Divider from '../divider'
 import Intro from '../intro'
 import Programming from '../programming'
-import GithubActivity from '../github-activity'
+// import GithubActivity from '../github-activity'
 import Social from '../social'
 import SideProjects from '../side-projects'
 
@@ -25,7 +25,6 @@ class App extends Component {
             <Programming />
             <Divider />
             <SideProjects />
-            <GithubActivity />
           </div>
         </div>
       </div>
