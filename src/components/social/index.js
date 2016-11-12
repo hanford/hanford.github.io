@@ -7,12 +7,14 @@ import links from './social.json'
 import Stagger from '../stagger'
 import './style.css'
 
-export default () => {
+export default ({ toggleSnapModal }) => {
   return (
     <div>
       <div className='styleRow'>
-        <Title content='Where to find me' noMargin />
-        <div>
+        <div className='where'>
+          <Title content='Where to find me' noMargin />
+        </div>
+        <div className='social-row'>
           {
             links
               .map((data, index) => {
@@ -24,7 +26,11 @@ export default () => {
                           <a href={data.link} target='_blank' className='icon' key={index} style={{
                             transform: `scale(${val.scaleIn}) translateY(${val.bumpDown}px)`
                           }}>
-                            <i className={data.icon}></i>
+                            {
+                              data.snapchat
+                              ? <div onClick={toggleSnapModal}><i className={data.icon}></i></div>
+                              : <i className={data.icon}></i>
+                            }
                           </a>
                         }
                       </Motion>

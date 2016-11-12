@@ -3,7 +3,8 @@
   "icon": "ion-social-github-outline"
 }, {
   "icon": "icon ion-social-snapchat-outline",
-  "link": "snapchat"
+  "link": "javascript:void(0)",
+  "snapchat": true
 }, {
   "link": "https://twitter.com/jackhanford",
   "icon": "ion-social-twitter-outline"

@@ -3,9 +3,14 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding-top: 2rem;
+  padding: 2rem 0;
   border-bottom: 1px solid #CCC;
-  padding-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  .styleRow {
+    padding: 0.5rem 0;
+  }
 }
 
 .icon {
@@ -13,4 +18,19 @@
   margin: 0 0.5rem;
   color: black;
   display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .where {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .social-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
