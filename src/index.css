@@ -1,22 +1,16 @@
-@font-face {
-  font-family: 'brandon';
-  src: url(./assets/brandon.woff)
-}
+@import '../node_modules/@blueprintjs/core/dist/blueprint.css';
 
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100%;
   width: 100%;
   font-size: 10px;
-  font-family: 'brandon', sans-serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
 }
 
-#root,
-[data-reactroot] {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+.section {
+  line-height: 2.6rem;
 }

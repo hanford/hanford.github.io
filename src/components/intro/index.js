@@ -7,11 +7,10 @@ class Intro extends Component {
   render () {
     return (
       <div  className='about-me'>
-        <h2>
+        <h1 className='me'>
           Jack Hanford
-          😎
-        </h2>
-        <p>
+        </h1>
+        <p className='section'>
           I skipped college when I was 18 and moved across the country by myself to pursue a career as a software engineer. Needless to say, it's been an incredible journey filled with very smart people, lots of programming, and more than a few sleepless nights.
         </p>
       </div>

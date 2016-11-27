@@ -1,21 +1,24 @@
 import React from 'react'
-import Modal from 'react-modal'
+import { Dialog, Button } from '@blueprintjs/core'
 
-import SnapCode from './snap-code.jpg'
+import SnapCode from './snapcode.png'
+import './style.css'
 
 export default ({ showSnapModal, toggleSnapModal }) => {
   return (
-    <Modal
+    <Dialog
+      iconName="inbox"
       isOpen={showSnapModal}
-      // onAfterOpen={afterOpenFn}
-      onRequestClose={toggleSnapModal}
-      shouldCloseOnOverlayClick={true}
-      // closeTimeoutMS={n}
-      // style={customStyle}
-      contentLabel="Modal"
+      onClose={toggleSnapModal}
     >
-      <img src={SnapCode} />
-      <button onClick={toggleSnapModal}>Close</button>
-    </Modal>
+      <div className="pt-dialog-body">
+        <img src={SnapCode} className='snapcode' />
+      </div>
+      <div className="pt-dialog-footer">
+        <div className="pt-dialog-footer-actions">
+            <Button onClick={toggleSnapModal} text="Close" />
+        </div>
+      </div>
+    </Dialog>
   )
 }

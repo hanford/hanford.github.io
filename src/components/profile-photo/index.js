@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Motion, spring } from 'react-motion'
 import document from 'global/document'
 
-import me from './me.jpg'
+import me from './me5.jpg'
 import './style.css'
 
 class ProfilePhoto extends Component {

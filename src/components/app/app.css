@@ -1,31 +1,49 @@
-.body {
-  height: 100%;
-  width: 100%;
-  overflow-y: auto;
-}
-
 .app {
   font-size: 1.6rem;
-  max-width: 76rem;
   margin: 0 auto;
   color: rgba(0,0,0,.9);
-  display: flex;
-  flex-direction: column;
+}
+
+.content {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .top-section {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-}
-
-@media(max-width: 600px) {
-  .top-section {
-    flex-direction: column;
-  }
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem auto;
+  color: white;
+  text-shadow: 0 3px 20px rgba(50, 50, 93, 0.25);
 }
 
 .bottom-section {
   display: flex;
   flex-direction: column;
+  margin: 16rem auto;
+  padding: 1rem;
+}
+
+@media(max-width: 767px) {
+  .botttom-section {
+    margin: 8rem auto;
+  }
+}
+
+.backdrop {
+  background: linear-gradient(top, #1AD6FD, #1D62F0);
+  color: white;
+  transform: rotateZ(350deg);
+  position: absolute;
+  top: -214px;
+  left: -118px;
+  width: 150%;
+  height: 70rem;
+  z-index: -1;
+}
+
+.programming {
+  margin: 4rem auto;
 }

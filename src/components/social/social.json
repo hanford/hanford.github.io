@@ -1,23 +1,30 @@
 [{
   "link": "https://github.com/hanford",
-  "icon": "ion-social-github-outline"
+  "icon": "ion-social-github",
+  "title": "I keep my code on github"
 }, {
-  "icon": "icon ion-social-snapchat-outline",
+  "icon": "icon ion-social-snapchat",
+  "title": "I send snaps on Snapchat",
   "link": "javascript:void(0)",
   "snapchat": true
 }, {
   "link": "https://twitter.com/jackhanford",
-  "icon": "ion-social-twitter-outline"
+  "icon": "ion-social-twitter",
+  "title": "I tweet on twitter"
 }, {
   "link": "https://www.linkedin.com/in/jack-hanford-98352761",
-  "icon": "ion-social-linkedin-outline"
+  "icon": "ion-social-linkedin",
+  "title": "I connect with people on LinkedIn"
 }, {
   "link": "https://www.instagram.com/jackhanford",
-  "icon": "ion-social-instagram-outline"
+  "icon": "ion-social-instagram",
+  "title": "I post photos on Instagram"
 }, {
   "link": "https://facebook.com/jackhanford",
-  "icon": "ion-social-facebook-outline"
+  "icon": "ion-social-facebook",
+  "title": "I connect with friends on facebook"
 }, {
   "link": "mailto:hello@jackhanford.com",
-  "icon": "icon ion-ios-email-outline"
+  "icon": "icon ion-ios-email",
+  "title": "Email me"
 }]

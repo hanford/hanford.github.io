@@ -30,8 +30,6 @@ class App extends Component {
     this.setState({
       showSnapModal: !showSnapModal
     })
-
-    console.log(this.state.showSnapModal)
   }
 
   render() {
@@ -41,18 +39,23 @@ class App extends Component {
 
     return (
       <div className='app'>
-        <Social
-          toggleSnapModal={this.toggleSnapModal}
-          showSnapModal={showSnapModal}
-        />
-        <div className='body'>
-          <div className='top-section'>
-            <ProfilePhoto />
-            <Intro />
+        <div className='top'>
+          <div className='backdrop'></div>
+          <div className='content'>
+            <div className='top-section'>
+              <Intro />
+              <Social
+                toggleSnapModal={this.toggleSnapModal}
+                showSnapModal={showSnapModal}
+              />
+            </div>
           </div>
-          <Divider />
-          <div class='bottom-section'>
-            <Programming />
+        </div>
+        <div className='content'>
+          <div className='bottom-section'>
+            <div className='programming'>
+              <Programming />
+            </div>
             <Divider />
             <SideProjects />
           </div>

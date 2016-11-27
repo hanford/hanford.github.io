@@ -4,7 +4,6 @@
   justify-content: space-between;
   width: 100%;
   padding: 2rem 0;
-  border-bottom: 1px solid #CCC;
 }
 
 @media (max-width: 767px) {
@@ -16,8 +15,14 @@
 .icon {
   font-size: 3rem;
   margin: 0 0.5rem;
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
   display: inline-block;
+}
+
+.icon:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
 @media (max-width: 767px) {

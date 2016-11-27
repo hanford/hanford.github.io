@@ -1,4 +1,17 @@
 .about-me {
-  margin-left: 2rem;
   text-align: left;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 4rem 0;
+  padding: 1rem;
+}
+
+.me {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 4rem;
+  letter-spacing: 0.03em;
+  font-family: 'Pacifico', Arial;
+}
+
+.about-me > p {
+  text-shadow: 0 3px 20px rgba(50, 50, 93, 0.25);
 }
